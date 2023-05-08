@@ -91,9 +91,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: (
+    <>
+      I am a machine learning and artificial intelligence engineer leading autonomy initiatives at Northrop Grumman
+      Aeronautics Systems.
+      <br />
+      <br />
+      Some of the areas I have worked in include perception, computer vision, synthetic aperature radar (SAR), signal
+      processing, RF, anomaly detection, tracking, natural language processing (NLP), guidance and control, and
+      estimation.
+    </>
+  ),
   aboutItems: [
     {label: 'Employment', text: 'AI/ML @Northrop Grumman', Icon: OfficeBuildingIcon},
     {label: 'Location', text: 'Los Angeles, CA', Icon: LocationMarkerIcon},
