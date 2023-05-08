@@ -258,7 +258,7 @@ export const experience: WorkItem[] = [
     date: 'Jul 2020 - Present',
     company: 'Northrop Grumman Corporation',
     title: 'Staff AI Engineer | Advanced Autonomy Group',
-    link: 'https://www.cc.gatech.edu/',
+    link: 'https://www.northropgrumman.com/what-we-do/air/autonomous-systems/',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -270,7 +270,7 @@ export const experience: WorkItem[] = [
     date: 'Aug 2019 - Jul 2020',
     company: 'Electromagnetic Systems Inc.',
     title: 'Senior Machine Learning Engineer',
-    link: 'https://www.cc.gatech.edu/',
+    link: 'https://emagsys.com/',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -282,7 +282,7 @@ export const experience: WorkItem[] = [
     date: 'Aug 2019 - Jul 2020',
     company: 'Northrop Grumman Corporation',
     title: 'Senior Principal Engineer | Autonomy Research UAS Technology Dept.',
-    link: 'https://www.cc.gatech.edu/',
+    link: 'https://www.northropgrumman.com/what-we-do/air/autonomous-systems/',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -294,7 +294,7 @@ export const experience: WorkItem[] = [
     date: 'Apr 2014 - May 2017',
     company: 'The Aerospace Corporation',
     title: 'Senior Member of the Technical Staff | Guidance & Control Subdivision',
-    link: 'https://www.cc.gatech.edu/',
+    link: 'https://aerospace.org/',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -306,7 +306,7 @@ export const experience: WorkItem[] = [
     date: 'Apr 2014 - May 2017',
     company: 'Space Systems Loral (acquired, now Maxar Technologies)',
     title: 'Senior Research and Development Engineer',
-    link: 'https://www.cc.gatech.edu/',
+    link: 'https://www.maxar.com/',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -318,7 +318,7 @@ export const experience: WorkItem[] = [
     date: 'Oct 2008 - May 2012',
     company: 'ASRC Federal Space and Defense',
     title: 'Attitude Control / Simulation Engineer',
-    link: 'https://www.cc.gatech.edu/',
+    link: 'https://www.asrcfederal.com/markets/space/',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
