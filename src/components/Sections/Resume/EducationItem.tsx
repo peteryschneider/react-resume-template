@@ -3,7 +3,7 @@ import {ChevronUpIcon, ChevronDownIcon} from '@heroicons/react/outline';
 
 import {EducationItem} from '../../../data/dataDef';
 
-const EducationItem: FC<{item: EducationItem}> = memo(({ item }) => {
+const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
   const {degree, date, school, link, specialization, content} = item;
   const [isContentVisible, setContentVisible] = useState(false);
 
@@ -19,9 +19,9 @@ const EducationItem: FC<{item: EducationItem}> = memo(({ item }) => {
             <h2 className="text-l font-bold">
               <a
                 href={link}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="hover:text-blue-400"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 {school}
               </a>
@@ -45,8 +45,8 @@ const EducationItem: FC<{item: EducationItem}> = memo(({ item }) => {
           <div className="pb-4">
             <div className="flex">
               <button
-                onClick={toggleContentVisibility}
                 className="ml-2 mr-4 focus:outline-none"
+                onClick={toggleContentVisibility}
               >
                 {isContentVisible ? (
                   <ChevronUpIcon className="w-5 h-5" />
