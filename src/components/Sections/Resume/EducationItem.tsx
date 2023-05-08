@@ -3,7 +3,7 @@ import {ChevronUpIcon, ChevronDownIcon} from '@heroicons/react/outline';
 
 import {EducationItem} from '../../../data/dataDef';
 
-const EducationItem: FC<{ item: EducationItem }> = memo(({ item }) => {
+const EducationItem: FC<{item: EducationItem}> = memo(({ item }) => {
   const {degree, date, school, link, specialization, content} = item;
   const [isContentVisible, setContentVisible] = useState(false);
 
