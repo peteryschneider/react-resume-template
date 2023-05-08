@@ -8,7 +8,7 @@ const WorkItem: FC<{item: WorkItem}> = memo(({item}) => {
     <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
       <div className="flex flex-col pb-4">
         <h2 className="text-l font-bold">
-            <a href={link} className="hover:text-blue-400" rel="noopener noreferrer" target="_blank">
+            <a className="hover:text-blue-400" href={link} rel="noopener noreferrer" target="_blank">
                 {company}
             </a>
         </h2>
