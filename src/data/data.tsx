@@ -2,8 +2,8 @@ import {
   AcademicCapIcon,
   DownloadIcon,
   LocationMarkerIcon,
+  MailIcon,
   OfficeBuildingIcon,
-  MailIcon
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -23,12 +23,12 @@ import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
+  EducationItem,
   Hero,
   HomepageMeta,
   PortfolioItem,
   SkillGroup,
   Social,
-  EducationItem,
   WorkItem,
 } from './dataDef';
 
