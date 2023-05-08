@@ -110,6 +110,13 @@ export interface EducationItem {
   content: JSX.Element;
 }
 
+export interface EducationSimpleItem {
+  date: string;
+  school: string;
+  degree: string;
+  link: string;
+}
+
 /**
  * Social items
  */

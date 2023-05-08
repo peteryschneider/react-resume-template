@@ -1,4 +1,5 @@
 import React, {FC, memo, useState} from 'react';
+import {ChevronUpIcon, ChevronDownIcon} from '@heroicons/react/outline';
 
 import {EducationItem} from '../../../data/dataDef';
 
@@ -47,9 +48,11 @@ const EducationItem: FC<{ item: EducationItem }> = memo(({ item }) => {
                 onClick={toggleContentVisibility}
                 className="ml-2 mr-4 focus:outline-none"
               >
-                <span className="inline-block">
-                  {isContentVisible ? '▲' : '▼'}
-                </span>
+                {isContentVisible ? (
+                  <ChevronUpIcon className="w-5 h-5" />
+                ) : (
+                  <ChevronDownIcon className="w-5 h-5" />
+                )}
               </button>
             </div>
             {isContentVisible && <div>{content}</div>}
