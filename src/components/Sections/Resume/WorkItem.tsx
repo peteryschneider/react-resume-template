@@ -13,7 +13,7 @@ const WorkItem: FC<{item: WorkItem}> = memo(({item}) => {
             </a>
         </h2>
         <div className="flex items-center justify-center gap-x-2 md:justify-start">
-          <span className="flex-1 text-sm font-medium italic sm:flex-none">
+          <span className="flex-1 text-med font-medium italic sm:flex-none">
             {title}
           </span>
           <span>

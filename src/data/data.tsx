@@ -252,6 +252,83 @@ export const portfolioItems: PortfolioItem[] = [
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
+
+export const experience: WorkItem[] = [
+  {
+    date: 'Jul 2020 - Present',
+    company: 'Northrop Grumman Corporation',
+    title: 'Staff AI Engineer | Advanced Autonomy Group',
+    link: 'https://www.cc.gatech.edu/',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'Aug 2019 - Jul 2020',
+    company: 'Electromagnetic Systems Inc.',
+    title: 'Senior Machine Learning Engineer',
+    link: 'https://www.cc.gatech.edu/',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'Aug 2019 - Jul 2020',
+    company: 'Northrop Grumman Corporation',
+    title: 'Senior Principal Engineer | Autonomy Research UAS Technology Dept.',
+    link: 'https://www.cc.gatech.edu/',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'Apr 2014 - May 2017',
+    company: 'The Aerospace Corporation',
+    title: 'Senior Member of the Technical Staff | Guidance & Control Subdivision',
+    link: 'https://www.cc.gatech.edu/',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'Apr 2014 - May 2017',
+    company: 'Space Systems Loral (acquired, now Maxar Technologies)',
+    title: 'Senior Research and Development Engineer',
+    link: 'https://www.cc.gatech.edu/',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'Oct 2008 - May 2012',
+    company: 'ASRC Federal Space and Defense',
+    title: 'Attitude Control / Simulation Engineer',
+    link: 'https://www.cc.gatech.edu/',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+];
+
+
 export const education: EducationItem[] = [
   {
     date: 'May 2017',
@@ -261,32 +338,23 @@ export const education: EducationItem[] = [
     specialization: 'Machine Learning',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
-];
 
-export const experience: WorkItem[] = [
   {
-    date: 'March 2010 - Present',
-    company: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
-    link: 'https://www.cc.gatech.edu/',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
+    date: 'June 2014',
+    school: 'University of California, Los Angeles',
+    degree: 'M.S. Aerospace Engineering',
+    link: 'https://samueli.ucla.edu/',
+    specialization: 'Dynamic Systems and Control',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
+
   {
-    date: 'March 2007 - February 2010',
-    company: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    link: 'https://www.cc.gatech.edu/',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
+    date: 'June 2008',
+    school: 'University of California, Los Angeles',
+    degree: 'B.S. Aerospace Engineering',
+    link: 'https://samueli.ucla.edu/',
+    specialization: '',
+    content: <></>,
   },
 ];
 
