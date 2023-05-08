@@ -336,7 +336,7 @@ export const education: EducationItem[] = [
     degree: 'M.S. Computer Science',
     link: 'https://www.cc.gatech.edu/',
     specialization: 'Machine Learning',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Describe your experience at <strong>school</strong>, what you learned, what useful skills you have acquired etc.</p>,
   },
 
   {
@@ -345,7 +345,24 @@ export const education: EducationItem[] = [
     degree: 'M.S. Aerospace Engineering',
     link: 'https://samueli.ucla.edu/',
     specialization: 'Dynamic Systems and Control',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: (
+    <>
+      <p>
+        <strong>Coursework</strong>
+        <ul>
+          <li>• MAE 171B: Digital Control of Physical Systems</li>
+          <li>• MAE M270A: Linear Dynamic Systems</li>
+          <li>• MAE 270B: Linear Optimal Control</li>
+          <li>• MAE C270A: Probability and Stochastic Processes in Dynamical Systems</li>
+          <li>• MAE 271B: Stochastic Estimation</li>
+          <li>• MAE 250C: Compressible Flows</li>
+          <li>• MAE 250D: Computational Fluid Dynamics for Compressible Flows</li>
+          <li>• MAE M269A: Dynamics of Structures</li>
+          <li>• E299: Advised Capstone Project, System Identification</li>
+        </ul>
+      </p>
+    </>
+    ),
   },
 
   {
