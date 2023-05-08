@@ -335,8 +335,31 @@ export const education: EducationItem[] = [
     school: 'Georgia Institute of Technology',
     degree: 'M.S. Computer Science',
     link: 'https://www.cc.gatech.edu/',
-    specialization: 'Machine Learning',
-    content: <p>Describe your experience at <strong>school</strong>, what you learned, what useful skills you have acquired etc.</p>,
+    specialization: 'Machine Learning Specialization',
+    content: (
+    <>
+      <p>
+        <strong>TA</strong>
+        <ul>
+          <li>• CSE 8803: Big Data for Healthcare</li>
+          <li>• CS 8803: AI for Robotics</li>
+        </ul>
+        <strong>Coursework</strong>
+        <ul>
+          <li>• CS 7641: Machine Learning</li>
+          <li>• CS 7646: Machine Learning for Trading</li>
+          <li>• CS 8803: Reinforcement Learning</li>
+          <li>• CSE 6242: Data and Visual Analytics</li>
+          <li>• CS 6476: Computer Vision</li>
+          <li>• CS 7637: Knowledge Based AI</li>
+          <li>• CS 8803: AI for Robotics</li>
+          <li>• CSE 8803: Big Data for Healthcare</li>
+          <li>• CS 6505: Computability and Algorithms</li>
+          <li>• CS 6262: Network Security</li>
+        </ul>
+      </p>
+    </>
+    ),
   },
 
   {
