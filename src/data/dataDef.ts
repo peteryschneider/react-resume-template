@@ -93,6 +93,14 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
+export interface WorkItem {
+  date: string;
+  company: string;
+  title: string;
+  link: string;
+  content: JSX.Element;
+}
+
 export interface EducationItem {
   date: string;
   school: string;

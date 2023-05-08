@@ -28,8 +28,8 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  TimelineItem,
   EducationItem,
+  WorkItem,
 } from './dataDef';
 
 /**
@@ -263,11 +263,12 @@ export const education: EducationItem[] = [
   },
 ];
 
-export const experience: TimelineItem[] = [
+export const experience: WorkItem[] = [
   {
     date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
+    company: 'Awesome Development Company',
     title: 'Senior UX Engineer',
+    link: 'https://www.cc.gatech.edu/',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -277,8 +278,9 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
+    company: 'Garage Startup Studio',
     title: 'Junior bug fixer',
+    link: 'https://www.cc.gatech.edu/',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and

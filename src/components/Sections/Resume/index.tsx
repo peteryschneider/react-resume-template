@@ -4,8 +4,8 @@ import {education, experience, SectionId, skills} from '../../../data/data';
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import {SkillGroup} from './Skills';
-import TimelineItem from './TimelineItem';
 import EducationItem from './EducationItem';
+import WorkItem from './WorkItem';
 
 const Resume: FC = memo(() => {
   return (
@@ -13,7 +13,7 @@ const Resume: FC = memo(() => {
       <div className="flex flex-col divide-y-2 divide-neutral-300">
         <ResumeSection title="Experience">
           {experience.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
+            <WorkItem item={item} key={`${item.company}-${index}`} />
           ))}
         </ResumeSection>
         <ResumeSection title="Education">
