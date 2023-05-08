@@ -3,6 +3,7 @@ import {
   DownloadIcon,
   LocationMarkerIcon,
   OfficeBuildingIcon,
+  MailIcon
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -325,6 +326,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
+  {label: 'Email', Icon: MailIcon, href: 'mailto:peteryschneider@gmail.com/'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/peteryschneider/'},
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/peteryschneider'},
 ];
