@@ -23,8 +23,6 @@ import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
-  ContactSection,
-  ContactType,
   Hero,
   HomepageMeta,
   PortfolioItem,
@@ -47,7 +45,6 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
@@ -77,11 +74,6 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
-    },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
     },
   ],
 };
@@ -302,28 +294,6 @@ export const experience: TimelineItem[] = [
 /**
  * Contact section
  */
-
-export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
-  items: [
-    {
-      type: ContactType.Email,
-      text: 'peteryschneider@gmail.com',
-      href: 'peteryschneider@gmail.com',
-    },
-    {
-      type: ContactType.Location,
-      text: 'Los Angeles, CA',
-      href: 'https://www.google.com/maps/place/los+angeles/data=!4m2!3m1!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4?sa=X&ved=2ahUKEwiz58P5wuT-AhVWH0QIHcvMClMQ8gF6BAh7EAE',
-    },
-    {
-      type: ContactType.Github,
-      text: 'peteryschneider',
-      href: 'https://github.com/peteryschneider',
-    },
-  ],
-};
 
 /**
  * Social items
