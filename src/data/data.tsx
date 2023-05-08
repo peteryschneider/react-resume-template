@@ -91,7 +91,7 @@ export const aboutData: About = {
       <br />
       <br />
       Some of the areas I have worked in include perception, computer vision, synthetic aperature radar (SAR), signal
-      processing, RF, anomaly detection, tracking, natural language processing (NLP), guidance and control, and
+      processing, RF, anomaly detection, tracking, natural language processing, guidance and control, and
       estimation.
     </>
   ),
