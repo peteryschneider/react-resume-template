@@ -107,7 +107,7 @@ export interface EducationItem {
   degree: string;
   link: string;
   specialization: string
-  content: JSX.Element;
+  content: JSX.Element | string;
 }
 
 export interface EducationSimpleItem {

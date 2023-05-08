@@ -394,7 +394,7 @@ export const education: EducationItem[] = [
     degree: 'B.S. Aerospace Engineering',
     link: 'https://samueli.ucla.edu/',
     specialization: '',
-    content: <></>,
+    content: '',
   },
 ];
 

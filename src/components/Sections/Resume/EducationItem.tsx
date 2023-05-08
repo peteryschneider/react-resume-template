@@ -42,8 +42,9 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
         </div>
       </div>
       {React.Children.count(content) > 0 && (
-          <div className="pb-4">
-            <div className="flex">
+        <div className="pb-4">
+          <div className="flex">
+            {content !== '' && (
               <button
                 className="ml-2 mr-4 focus:outline-none"
                 onClick={toggleContentVisibility}
@@ -54,10 +55,11 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
                   <ChevronDownIcon className="w-5 h-5" />
                 )}
               </button>
-            </div>
-            {isContentVisible && <div>{content}</div>}
+            )}
           </div>
-        )}
+          {isContentVisible && <div>{content}</div>}
+        </div>
+      )}
     </div>
   );
 });
