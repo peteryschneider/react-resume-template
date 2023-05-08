@@ -18,8 +18,8 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
           <div className="flex flex-col">
             <h2 className="text-l font-bold">
               <a
-                href={link}
                 className="hover:text-blue-400"
+                href={link}
                 rel="noopener noreferrer"
                 target="_blank"
               >
