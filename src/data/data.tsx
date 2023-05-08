@@ -29,6 +29,7 @@ import {
   SkillGroup,
   Social,
   TimelineItem,
+  EducationItem,
 } from './dataDef';
 
 /**
@@ -251,17 +252,13 @@ export const portfolioItems: PortfolioItem[] = [
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
-export const education: TimelineItem[] = [
+export const education: EducationItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
+    date: 'May 2017',
+    school: 'Georgia Institute of Technology',
+    degree: 'M.S. Computer Science',
+    link: 'https://www.cc.gatech.edu/',
+    specialization: 'Machine Learning',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];

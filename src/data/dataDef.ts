@@ -93,6 +93,15 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
+export interface EducationItem {
+  date: string;
+  school: string;
+  degree: string;
+  link: string;
+  specialization: string
+  content: JSX.Element;
+}
+
 /**
  * Social items
  */

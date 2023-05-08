@@ -5,6 +5,7 @@ import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import {SkillGroup} from './Skills';
 import TimelineItem from './TimelineItem';
+import EducationItem from './EducationItem';
 
 const Resume: FC = memo(() => {
   return (
@@ -17,7 +18,7 @@ const Resume: FC = memo(() => {
         </ResumeSection>
         <ResumeSection title="Education">
           {education.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
+            <EducationItem item={item} key={`${item.school}-${index}`} />
           ))}
         </ResumeSection>
         <ResumeSection title="Skills">
