@@ -1,18 +1,12 @@
 import {
   AcademicCapIcon,
-  CalendarIcon,
   DownloadIcon,
-  FlagIcon,
-  MapIcon,
+  LocationMarkerIcon,
   OfficeBuildingIcon,
-  SparklesIcon,
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -74,7 +68,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">Machine Learning</strong> and
-        <strong className="text-stone-100">Artificial Intelligence</strong>  engineer working in Autonomy at
+        <strong className="text-stone-100"> Artificial Intelligence</strong> engineer working in Autonomy at
         Northrop Grumman
       </p>
     </>
@@ -103,12 +97,10 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'AI/ML @Northrop Grumman', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Los Angeles, CA', Icon: LocationMarkerIcon},
+    {label: 'Study', text: 'Computer Science @Georgia Tech', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'Aerospace Engineering @UCLA', Icon: AcademicCapIcon},
   ],
 };
 
@@ -360,9 +352,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/peteryschneider/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/peteryschneider'},
 ];
