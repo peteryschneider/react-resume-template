@@ -297,8 +297,8 @@ export const experience: WorkItem[] = [
     link: 'https://aerospace.org/',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        The Aerospace Corporation is a federally funded research and development center (FFRDC) for national-security
+        space that works closely with the United States Space Force and the National Reconnaissance Office (NRO).
       </p>
     ),
   },
