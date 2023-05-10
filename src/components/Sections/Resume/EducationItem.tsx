@@ -14,7 +14,7 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
   return (
     <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
       <div className="flex flex-col pb-0">
-        <h2 className="text-l font-bold">
+        <h2 className="text-xl font-bold">
             <a className="hover:text-blue-400" href={link} rel="noopener noreferrer" target="_blank">{school}</a>
         </h2>
         <div className="flex items-center justify-center gap-x-2 md:justify-start">
