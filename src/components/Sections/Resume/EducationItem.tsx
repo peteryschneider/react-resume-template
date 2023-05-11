@@ -14,16 +14,16 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
   return (
     <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
       <div className="flex flex-col pb-0">
-        <h2 className="text-xl font-bold">
+        <h2 className="text-xl font-bold text-blue-600">
             <a className="hover:text-blue-400" href={link} rel="noopener noreferrer" target="_blank">{school}</a>
         </h2>
         <div className="flex items-center justify-center gap-x-2 md:justify-start">
-          <span className="flex-1 text-med font-medium sm:flex-none">{degree}</span>
+          <span className="flex-1 text-lg font-medium sm:flex-none">{degree}</span>
           <span>•</span>
           <span className="flex-1 text-sm sm:flex-none">{date}</span>
         </div>
       </div>
-      <span className="flex-1 text-med font-medium sm:flex-none">{specialization}</span>
+      <span className="flex-1 text-lg font-medium sm:flex-none">{specialization}</span>
       {React.Children.count(content) > 0 && (
         <div className="pb-4">
           <div className="flex">
