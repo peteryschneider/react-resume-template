@@ -200,9 +200,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
+    title: 'RF Machine Learning',
+    description: 'RF Machine Learning, complex-valued neural networks, collaboration with Deepwave Digital.',
+    url: 'https://news.northropgrumman.com/news/releases/northrop-grumman-invests-in-deepwave-digitals-ai',
     image: porfolioImage4,
   },
   {
