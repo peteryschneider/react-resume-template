@@ -201,7 +201,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'RF Machine Learning',
-    description: 'RF Machine Learning, complex-valued neural networks, collaboration with Deepwave Digital.',
+    description: 'RF Machine Learning, including research of complex-valued neural networks and collaboration with Deepwave Digital.',
     url: 'https://news.northropgrumman.com/news/releases/northrop-grumman-invests-in-deepwave-digitals-ai',
     image: porfolioImage4,
   },
