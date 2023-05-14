@@ -218,9 +218,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
+    title: 'SAR Simulation for AI/ML',
+    description: 'Rapid generation of SAR simulation data for deep learning',
+    url: 'https://emagsys.com/radar-simulation-software-for-rapid-generation-of-sar-or-isar-ai-ml-training-data/',
     image: porfolioImage7,
   },
   {
