@@ -9,8 +9,8 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage1 from '../images/portfolio/GPS_Block_IIIA.jpeg';
+import porfolioImage2 from '../images/portfolio/falcon_9.jpeg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -182,15 +182,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
+    title: 'GPS-III',
+    description: 'Led a team working on the next generation GPS satellite constellation (GPS-III)',
+    url: 'https://www.lockheedmartin.com/en-us/products/gps.html',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
+    title: 'Falcon 9',
+    description: 'Guidance, Navigation, and Control and flight software analysis for Falcon 9 launch vehicle.',
+    url: 'https://www.spacex.com/vehicles/falcon-9/',
     image: porfolioImage2,
   },
   {
