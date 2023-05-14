@@ -194,9 +194,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
+    title: 'MQ-4C Triton',
+    description: 'Machine learning and autonomy work for Triton, a surveillance unmanned aircraft system (UAS).',
+    url: 'https://www.northropgrumman.com/what-we-do/air/triton/',
     image: porfolioImage3,
   },
   {
