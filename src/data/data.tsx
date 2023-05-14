@@ -212,9 +212,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
+    title: 'Cognitive Autonomy',
+    description: 'Cognitive Autonomy research group at Northrop Grumman.',
+    url: 'https://www.northropgrumman.com/ng-next-research/#CA',
     image: porfolioImage6,
   },
   {
