@@ -224,9 +224,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
+    title: 'Atlas-V',
+    description: 'Guidance, Navigation, and Control and flight software analysis for Atlas-V launch vehicle.',
+    url: 'https://www.ulalaunch.com/rockets/atlas-v',
     image: porfolioImage8,
   },
   {
