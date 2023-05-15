@@ -28,8 +28,8 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
         <div className="pb-4">
           <div className="flex">
             {content !== '' && (
-              <button className="ml-2 mr-4 focus:outline-none" onClick={toggleContentVisibility}>
-                {isContentVisible ? (<ChevronUpIcon className="w-5 h-5" />) : (<ChevronDownIcon className="w-5 h-5" />)}
+              <button className="mr-4 focus:outline-none" onClick={toggleContentVisibility}>
+                {isContentVisible ? (<ChevronUpIcon className="w-6 h-6" />) : (<ChevronDownIcon className="w-6 h-6" />)}
               </button>
             )}
           </div>

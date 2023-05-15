@@ -381,7 +381,7 @@ export const education: EducationItem[] = [
           <li>• MAE 250C: Compressible Flows</li>
           <li>• MAE 250D: Computational Fluid Dynamics for Compressible Flows</li>
           <li>• MAE M269A: Dynamics of Structures</li>
-          <li>• E299: Advised Capstone Project, System Identification</li>
+          <li>• Advised Capstone Project, System Identification</li>
         </ul>
       </p>
     </>
