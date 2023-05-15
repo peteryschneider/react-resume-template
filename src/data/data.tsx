@@ -230,9 +230,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
+    title: 'GOES satellite constellation',
+    description: 'Attitude control analysis and simulation for GOES satellite constellation.',
+    url: 'https://www.nasa.gov/content/goes-overview/index.html',
     image: porfolioImage9,
   },
   {
