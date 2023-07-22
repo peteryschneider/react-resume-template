@@ -240,8 +240,7 @@ export const experience: WorkItem[] = [
     link: 'https://www.northropgrumman.com/what-we-do/air/autonomous-systems/',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Machine learning and autonomy.
       </p>
     ),
   },
@@ -252,8 +251,7 @@ export const experience: WorkItem[] = [
     link: 'https://emagsys.com/',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Deep learning with SAR (synthetic aperture radar) imagery.
       </p>
     ),
   },
@@ -264,8 +262,7 @@ export const experience: WorkItem[] = [
     link: 'https://www.northropgrumman.com/what-we-do/air/autonomous-systems/',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Machine learning and autonomy
       </p>
     ),
   },
@@ -275,10 +272,19 @@ export const experience: WorkItem[] = [
     title: 'Senior Member of the Technical Staff | Guidance & Control Subdivision',
     link: 'https://aerospace.org/',
     content: (
-      <p>
-        The Aerospace Corporation is a federally funded research and development center (FFRDC) for national-security
-        space that works closely with the United States Space Force and the National Reconnaissance Office (NRO).
-      </p>
+      <>
+        <p>
+          The Aerospace Corporation is a federally funded research and development center (FFRDC) for national-security
+          space that works closely with the United States Space Force and the National Reconnaissance Office (NRO).
+        </p>
+        <br />
+        <p>
+          Machine learning, Guidance, Navigation & Control (GNC) analysis, and simulation for various space vehicles.
+        </p>
+        <ul>
+          <li>• Lead a team working on the next generation GPS satellite constellation (GPS Block III)</li>
+        </ul>
+      </>
     ),
   },
   {
@@ -288,8 +294,7 @@ export const experience: WorkItem[] = [
     link: 'https://www.maxar.com/',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Guidance, Navigation & Control (GNC) analysis and simulation for various satellites.
       </p>
     ),
   },
@@ -300,7 +305,7 @@ export const experience: WorkItem[] = [
     link: 'https://www.asrcfederal.com/markets/space/',
     content: (
       <p>
-        Worked on the GOES satellite constellation.
+        Guidance, Navigation & Control (GNC) analysis and simulation for the GOES satellite constellation.
       </p>
     ),
   },
