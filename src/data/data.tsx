@@ -239,9 +239,18 @@ export const experience: WorkItem[] = [
     title: 'Staff AI Engineer | Advanced Autonomy Group',
     link: 'https://www.northropgrumman.com/what-we-do/air/autonomous-systems/',
     content: (
-      <p>
-        Machine learning and autonomy.
-      </p>
+      <>
+        <p>
+          Leading machine learning projects in areas that include perception (EO, IR, SAR), tracking,
+          RF and signal processing, and Large Language Models (LLMs).
+        </p>
+        <br />
+        <ul>
+          <li>• Research and development of novel complex-valued neural networks exploiting both magnitude and phase
+          data in synthetic aperture radar (SAR) improving model performance.</li>
+          <li>• Research and development of Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
+        </ul>
+      </>
     ),
   },
   {
@@ -250,9 +259,19 @@ export const experience: WorkItem[] = [
     title: 'Senior Machine Learning Engineer',
     link: 'https://emagsys.com/',
     content: (
-      <p>
-        Deep learning with SAR (synthetic aperture radar) imagery.
-      </p>
+      <>
+        <p>
+          Deep learning with SAR (synthetic aperture radar) imagery.
+        </p>
+        <br />
+        <ul>
+          <li>• Research and development of novel complex-valued neural networks exploiting both magnitude and phase
+          data in SAR under  National Geospatial-Intelligence Agency (NGA) Boosting Innovative GEOINT (BIG) BAA.</li>
+          <li>• Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data
+          using transfer learning to significantly improve model performance.</li>
+          <li>•  Redeveloped existing models to modern SOTA single-shot architectures improving performance.</li>
+        </ul>
+      </>
     ),
   },
   {
