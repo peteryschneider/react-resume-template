@@ -245,10 +245,14 @@ export const experience: WorkItem[] = [
           RF and signal processing, and Large Language Models (LLMs).
         </p>
         <br />
+        Some example projects:
         <ul>
           <li>• Research and development of novel complex-valued neural networks exploiting both magnitude and phase
-          data in synthetic aperture radar (SAR) improving model performance.</li>
+          data in synthetic aperture radar (SAR) improving model performance including successful ATR demo deployed
+          on Triton.</li>
           <li>• Research and development of Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
+          <li>• Hyperbolic neural networks for hierarchical data.</li>
+
         </ul>
       </>
     ),
@@ -280,9 +284,18 @@ export const experience: WorkItem[] = [
     title: 'Senior Principal Engineer | Autonomy Research UAS Technology Dept.',
     link: 'https://www.northropgrumman.com/what-we-do/air/autonomous-systems/',
     content: (
-      <p>
-        Machine learning and autonomy
-      </p>
+      <>
+        <p>
+          Machine learning and autonomy.
+        </p>
+        <br />
+        <ul>
+          <li>• Developed and trained deep learning models for multiple projects including perception with satellite
+          imagery and anomaly detection with time-series telemetry data.</li>
+          <li>• Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
+          simulation platform for autonomous formation flying.</li>
+        </ul>
+      </>
     ),
   },
   {
