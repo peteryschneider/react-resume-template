@@ -300,8 +300,7 @@ export const experience: WorkItem[] = [
     link: 'https://www.asrcfederal.com/markets/space/',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Worked on the GOES satellite constellation.
       </p>
     ),
   },
