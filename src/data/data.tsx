@@ -346,8 +346,8 @@ export const experience: WorkItem[] = [
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}> Presented a paper on thruster leak analysis at the <a
-          href="https://arc.aiaa.org/doi/book/10.2514/MSPOP10" target="_blank" rel="noopener noreferrer" className={styles.customLink}>
+          <li className={styles.customBullet}> Presented a paper on thruster leak analysis at the <a className={styles.customLink}
+          href="https://arc.aiaa.org/doi/book/10.2514/MSPOP10" rel="noopener noreferrer" target="_blank">
           SpaceOps 2010 Conference</a> in Huntsville, Alabama.</li>
         </ul>
       </>
