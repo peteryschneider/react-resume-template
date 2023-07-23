@@ -246,13 +246,17 @@ export const experience: WorkItem[] = [
           synthetic aperture radar (SAR), tracking, RF and signal processing, and Large Language Models (LLMs).
         </p>
         <br />
-        Some example projects:
+        Selected projects:
         <ul>
           <li className={styles.customBullet}> Research and development of complex-valued neural networks exploiting both magnitude and phase
           data in SAR improving model performance including successful ATR demo deployed on Triton.</li>
           <li className={styles.customBullet}> Research and development of Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
-          <li className={styles.customBullet}> Hyperbolic neural networks for hierarchical data.</li>
-          <li className={styles.customBullet}> Temporal vessel track data</li>
+          <li className={styles.customBullet}> Research and development of hyperbolic neural networks improving performance with hierarchical data.</li>
+          <li className={styles.customBullet}> Research and development of LLMs including development of custom chat
+          assistants, fine-tuning of existing foundational models, providing models with extra specialized knowledge via
+          embedded databases allowing for retrieval, and integration with LangChain. </li>
+          <li className={styles.customBullet}> Supervised and unsupervised learning of temporal vessel track data
+          including use of transformers and parametric UMAP.</li>
 
         </ul>
       </>
@@ -293,8 +297,6 @@ export const experience: WorkItem[] = [
         <ul>
           <li className={styles.customBullet}> Developed and trained deep learning models for multiple projects including perception with satellite
           imagery and anomaly detection with time-series telemetry data.</li>
-          <li className={styles.customBullet}> Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
-          simulation platform for autonomous formation flying.</li>
           <li className={styles.customBullet}> Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
           simulation platform for autonomous formation flying.</li>
         </ul>
