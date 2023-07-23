@@ -248,14 +248,14 @@ export const experience: WorkItem[] = [
         <br />
         Selected projects:
         <ul>
-          <li className={styles.customBullet}> Research and development of complex-valued neural networks exploiting both magnitude and phase
+          <li className={styles.customBullet}>Research and development of complex-valued neural networks exploiting both magnitude and phase
           data in SAR improving model performance including successful ATR demo deployed on Triton.</li>
-          <li className={styles.customBullet}> Research and development of Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
-          <li className={styles.customBullet}> Research and development of hyperbolic neural networks improving performance with hierarchical data.</li>
-          <li className={styles.customBullet}> Research and development of LLMs including development of custom chat
+          <li className={styles.customBullet}>Research and development of Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
+          <li className={styles.customBullet}>Research and development of hyperbolic neural networks improving performance with hierarchical data.</li>
+          <li className={styles.customBullet}>Research and development of LLMs including development of custom chat
           assistants, fine-tuning of existing foundational models, providing models with extra specialized knowledge via
           embedded databases allowing for retrieval, and integration with LangChain. </li>
-          <li className={styles.customBullet}> Supervised and unsupervised learning of temporal vessel track data
+          <li className={styles.customBullet}>Supervised and unsupervised learning of temporal vessel track data
           including use of transformers and parametric UMAP.</li>
 
         </ul>
@@ -274,11 +274,11 @@ export const experience: WorkItem[] = [
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}> Research and development of complex-valued neural networks exploiting both magnitude and phase
+          <li className={styles.customBullet}>Research and development of complex-valued neural networks exploiting both magnitude and phase
           data in SAR under  National Geospatial-Intelligence Agency (NGA) Boosting Innovative GEOINT (BIG) BAA.</li>
-          <li className={styles.customBullet}> Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data
+          <li className={styles.customBullet}>Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data
           using transfer learning to significantly improve model performance.</li>
-          <li className={styles.customBullet}> Redeveloped existing models to modern SOTA single-shot architectures improving performance.</li>
+          <li className={styles.customBullet}>Redeveloped existing models to modern SOTA single-shot architectures improving performance.</li>
         </ul>
       </>
     ),
@@ -295,9 +295,9 @@ export const experience: WorkItem[] = [
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}> Developed and trained deep learning models for multiple projects including perception with satellite
+          <li className={styles.customBullet}>Developed and trained deep learning models for multiple projects including perception with satellite
           imagery and anomaly detection with time-series telemetry data.</li>
-          <li className={styles.customBullet}> Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
+          <li className={styles.customBullet}>Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
           simulation platform for autonomous formation flying.</li>
         </ul>
       </>
@@ -319,7 +319,7 @@ export const experience: WorkItem[] = [
           Machine learning, Guidance, Navigation & Control (GNC) analysis, and simulation for various space vehicles.
         </p>
         <ul>
-          <li className={styles.customBullet}> Lead a team working on the next generation GPS satellite constellation (GPS Block III)</li>
+          <li className={styles.customBullet}>Lead a team working on the next generation GPS satellite constellation (GPS Block III)</li>
         </ul>
       </>
     ),
@@ -350,7 +350,7 @@ export const experience: WorkItem[] = [
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}> Presented a <a className={styles.customLink}
+          <li className={styles.customBullet}>Presented a <a className={styles.customLink}
           href="https://arc.aiaa.org/doi/pdf/10.2514/6.2010-2140" rel="noopener noreferrer" target="_blank">
           paper</a> on thruster leak analysis at the <a className={styles.customLink}
           href="https://arc.aiaa.org/doi/book/10.2514/MSPOP10" rel="noopener noreferrer" target="_blank">
@@ -374,21 +374,21 @@ export const education: EducationItem[] = [
       <p>
         <strong>TA</strong>
         <ul>
-          <li className={styles.customBullet}> CSE 8803: Big Data for Healthcare</li>
-          <li className={styles.customBullet}> CS 8803: AI for Robotics</li>
+          <li className={styles.customBullet}>CSE 8803: Big Data for Healthcare</li>
+          <li className={styles.customBullet}>CS 8803: AI for Robotics</li>
         </ul>
         <strong>Coursework</strong>
         <ul>
-          <li className={styles.customBullet}> CS 7641: Machine Learning</li>
-          <li className={styles.customBullet}> CS 7646: Machine Learning for Trading</li>
-          <li className={styles.customBullet}> CS 8803: Reinforcement Learning</li>
-          <li className={styles.customBullet}> CSE 6242: Data and Visual Analytics</li>
-          <li className={styles.customBullet}> CS 6476: Computer Vision</li>
-          <li className={styles.customBullet}> CS 7637: Knowledge Based AI</li>
-          <li className={styles.customBullet}> CS 8803: AI for Robotics</li>
-          <li className={styles.customBullet}> CSE 8803: Big Data for Healthcare</li>
-          <li className={styles.customBullet}> CS 6505: Computability and Algorithms</li>
-          <li className={styles.customBullet}> CS 6262: Network Security</li>
+          <li className={styles.customBullet}>CS 7641: Machine Learning</li>
+          <li className={styles.customBullet}>CS 7646: Machine Learning for Trading</li>
+          <li className={styles.customBullet}>CS 8803: Reinforcement Learning</li>
+          <li className={styles.customBullet}>CSE 6242: Data and Visual Analytics</li>
+          <li className={styles.customBullet}>CS 6476: Computer Vision</li>
+          <li className={styles.customBullet}>CS 7637: Knowledge Based AI</li>
+          <li className={styles.customBullet}>CS 8803: AI for Robotics</li>
+          <li className={styles.customBullet}>CSE 8803: Big Data for Healthcare</li>
+          <li className={styles.customBullet}>CS 6505: Computability and Algorithms</li>
+          <li className={styles.customBullet}>CS 6262: Network Security</li>
         </ul>
       </p>
     </>
@@ -406,15 +406,16 @@ export const education: EducationItem[] = [
       <p>
         <strong>Coursework</strong>
         <ul>
-          <li className={styles.customBullet}> MAE 171B: Digital Control of Physical Systems</li>
-          <li className={styles.customBullet}> MAE M270A: Linear Dynamic Systems</li>
-          <li className={styles.customBullet}> MAE 270B: Linear Optimal Control</li>
-          <li className={styles.customBullet}> MAE C270A: Probability and Stochastic Processes in Dynamical Systems</li>
-          <li className={styles.customBullet}> MAE 271B: Stochastic Estimation</li>
-          <li className={styles.customBullet}> MAE 250C: Compressible Flows</li>
-          <li className={styles.customBullet}> MAE 250D: Computational Fluid Dynamics for Compressible Flows</li>
-          <li className={styles.customBullet}> MAE M269A: Dynamics of Structures</li>
-          <li className={styles.customBullet}> Advised Capstone Project, System Identification</li>
+          <li className={styles.customBullet}><a className={styles.customLink}
+          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE171B" rel="noopener noreferrer" target="_blank">MAE 171B: Digital Control of Physical Systems</a></li>
+          <li className={styles.customBullet}>MAE M270A: Linear Dynamic Systems</li>
+          <li className={styles.customBullet}>MAE 270B: Linear Optimal Control</li>
+          <li className={styles.customBullet}>MAE C270A: Probability and Stochastic Processes in Dynamical Systems</li>
+          <li className={styles.customBullet}>MAE 271B: Stochastic Estimation</li>
+          <li className={styles.customBullet}>MAE 250C: Compressible Flows</li>
+          <li className={styles.customBullet}>MAE 250D: Computational Fluid Dynamics for Compressible Flows</li>
+          <li className={styles.customBullet}>MAE M269A: Dynamics of Structures</li>
+          <li className={styles.customBullet}>Advised Capstone Project, System Identification</li>
         </ul>
       </p>
     </>
