@@ -341,12 +341,16 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Guidance, Navigation & Control (GNC) analysis and simulation for the GOES satellite constellation operated by
-          NOAA.
+          Guidance, Navigation & Control (GNC) analysis and simulation for the <a className={styles.customLink}
+          href="https://www.nasa.gov/content/goes-overview/index.html" rel="noopener noreferrer" target="_blank">GOES</a> satellite
+          constellation operated by <a className={styles.customLink}
+          href="https://www.nesdis.noaa.gov/" rel="noopener noreferrer" target="_blank">NOAA</a>.
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}> Presented a paper on thruster leak analysis at the <a className={styles.customLink}
+          <li className={styles.customBullet}> Presented a <a className={styles.customLink}
+          href="https://arc.aiaa.org/doi/pdf/10.2514/6.2010-2140" rel="noopener noreferrer" target="_blank">
+          paper</a> on thruster leak analysis at the <a className={styles.customLink}
           href="https://arc.aiaa.org/doi/book/10.2514/MSPOP10" rel="noopener noreferrer" target="_blank">
           SpaceOps 2010 Conference</a> in Huntsville, Alabama.</li>
         </ul>
