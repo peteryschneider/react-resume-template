@@ -408,13 +408,20 @@ export const education: EducationItem[] = [
         <ul>
           <li className={styles.customBullet}><a className={styles.customLink}
           href="https://catalog.registrar.ucla.edu/course/2023/MECHAE171B" rel="noopener noreferrer" target="_blank">MAE 171B: Digital Control of Physical Systems</a></li>
-          <li className={styles.customBullet}>MAE M270A: Linear Dynamic Systems</li>
-          <li className={styles.customBullet}>MAE 270B: Linear Optimal Control</li>
-          <li className={styles.customBullet}>MAE C270A: Probability and Stochastic Processes in Dynamical Systems</li>
-          <li className={styles.customBullet}>MAE 271B: Stochastic Estimation</li>
-          <li className={styles.customBullet}>MAE 250C: Compressible Flows</li>
-          <li className={styles.customBullet}>MAE 250D: Computational Fluid Dynamics for Compressible Flows</li>
-          <li className={styles.customBullet}>MAE M269A: Dynamics of Structures</li>
+          <li className={styles.customBullet}><a className={styles.customLink}
+          href="https://catalog.registrar.ucla.edu/course/2023/MECHAEM270A" rel="noopener noreferrer" target="_blank">MAE M270A: Linear Dynamic Systems</a></li>
+          <li className={styles.customBullet}><a className={styles.customLink}
+          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE270B" rel="noopener noreferrer" target="_blank">MAE 270B: Linear Optimal Control</a></li>
+          <li className={styles.customBullet}><a className={styles.customLink}
+          href="https://catalog.registrar.ucla.edu/course/2023/MECHAEC271A" rel="noopener noreferrer" target="_blank">MAE C270A: Probability and Stochastic Processes in Dynamical Systems</a></li>
+          <li className={styles.customBullet}><a className={styles.customLink}
+          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE271B" rel="noopener noreferrer" target="_blank">MAE 271B: Stochastic Estimation</a></li>
+          <li className={styles.customBullet}><a className={styles.customLink}
+          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE250C" rel="noopener noreferrer" target="_blank">MAE 250C: Compressible Flows</a></li>
+          <li className={styles.customBullet}><a className={styles.customLink}
+          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE250D" rel="noopener noreferrer" target="_blank">MAE 250D: Computational Fluid Dynamics for Compressible Flows</a></li>
+          <li className={styles.customBullet}><a className={styles.customLink}
+          href="https://catalog.registrar.ucla.edu/course/2023/MECHAEM269A" rel="noopener noreferrer" target="_blank">MAE M269A: Dynamics of Structures</a></li>
           <li className={styles.customBullet}>Advised Capstone Project, System Identification</li>
         </ul>
       </p>
