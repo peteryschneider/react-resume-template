@@ -1,6 +1,10 @@
+.customBullet {
+    position: relative;
+    line-height: 1.4;  /* Adjust according to your needs */
+}
+
 .customBullet::before {
     content: "•";
     font-size: 20px;
     font-weight: bold;
-    margin-right: 10px;
 }
