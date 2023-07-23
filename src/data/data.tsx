@@ -339,9 +339,18 @@ export const experience: WorkItem[] = [
     title: 'Attitude Control / Simulation Engineer',
     link: 'https://www.asrcfederal.com/markets/space/',
     content: (
-      <p>
-        Guidance, Navigation & Control (GNC) analysis and simulation for the GOES satellite constellation.
-      </p>
+      <>
+        <p>
+          Guidance, Navigation & Control (GNC) analysis and simulation for the GOES satellite constellation operated by
+          NOAA.
+        </p>
+        <br />
+        <ul>
+          <li className={styles.customBullet}> Presented a paper on thruster leak analysis at the <a
+          href="https://arc.aiaa.org/doi/book/10.2514/MSPOP10" target="_blank" rel="noopener noreferrer" className={styles.customLink}>
+          SpaceOps 2010 Conference</a> in Huntsville, Alabama.</li>
+        </ul>
+      </>
     ),
   },
 ];
