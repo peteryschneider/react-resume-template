@@ -31,6 +31,7 @@ import {
   Social,
   WorkItem,
 } from './dataDef';
+import styles from './styles.module.css';
 
 /**
  * Page meta data
@@ -241,17 +242,17 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Leading machine learning projects in areas that include perception (EO, IR, SAR), tracking,
-          RF and signal processing, and Large Language Models (LLMs).
+          Leading AI and machine learning projects in areas that include computer vision,
+          synthetic aperture radar (SAR), tracking, RF and signal processing, and Large Language Models (LLMs).
         </p>
         <br />
         Some example projects:
         <ul>
-          <li>• Research and development of novel complex-valued neural networks exploiting both magnitude and phase
-          data in synthetic aperture radar (SAR) improving model performance including successful ATR demo deployed
-          on Triton.</li>
+          <li>• Research and development of complex-valued neural networks exploiting both magnitude and phase
+          data in SAR improving model performance including successful ATR demo deployed on Triton.</li>
           <li>• Research and development of Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
           <li>• Hyperbolic neural networks for hierarchical data.</li>
+          <li>• Temporal vessel track data</li>
 
         </ul>
       </>
@@ -269,7 +270,7 @@ export const experience: WorkItem[] = [
         </p>
         <br />
         <ul>
-          <li>• Research and development of novel complex-valued neural networks exploiting both magnitude and phase
+          <li className={styles.customBullet}>Research and development of novel complex-valued neural networks exploiting both magnitude and phase
           data in SAR under  National Geospatial-Intelligence Agency (NGA) Boosting Innovative GEOINT (BIG) BAA.</li>
           <li>• Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data
           using transfer learning to significantly improve model performance.</li>
@@ -313,8 +314,11 @@ export const experience: WorkItem[] = [
         <p>
           Machine learning, Guidance, Navigation & Control (GNC) analysis, and simulation for various space vehicles.
         </p>
-        <ul>
-          <li>• Lead a team working on the next generation GPS satellite constellation (GPS Block III)</li>
+        <ul style={{ listStyleType: 'none' }}>
+          <li>
+          <span style={{ fontSize: '20px', fontWeight: 'bold' }}>•</span>
+          <span>Lead a team working on the next generation GPS satellite constellation (GPS Block III)</span>
+          </li>
         </ul>
       </>
     ),
