@@ -314,11 +314,8 @@ export const experience: WorkItem[] = [
         <p>
           Machine learning, Guidance, Navigation & Control (GNC) analysis, and simulation for various space vehicles.
         </p>
-        <ul style={{ listStyleType: 'none' }}>
-          <li>
-          <span style={{ fontSize: '20px', fontWeight: 'bold' }}>•</span>
-          <span>Lead a team working on the next generation GPS satellite constellation (GPS Block III)</span>
-          </li>
+        <ul>
+          <li>• Lead a team working on the next generation GPS satellite constellation (GPS Block III)</li>
         </ul>
       </>
     ),
