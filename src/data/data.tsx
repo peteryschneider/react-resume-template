@@ -350,9 +350,18 @@ export const experience: WorkItem[] = [
     title: 'Senior Research and Development Engineer',
     link: 'https://www.maxar.com/',
     content: (
-      <p>
-        Guidance, Navigation & Control (GNC) analysis and simulation for various satellites.
-      </p>
+      <>
+        <p>
+        Guidance Navigation & Control (GNC) analysis and simulation for various <a className={styles.customLink}
+          href="https://space.skyrocket.de/doc_sat/ssloral-1300.htm" rel="noopener noreferrer" target="_blank">satellites</a>.
+        </p>
+        <br />
+        <ul>
+          <li className={styles.customBullet}>Developed new control layer capable of autonomously navigating satellites
+          through on-orbit scenarios from the ground and software tools to improve autonomous accounting of propellant
+           usage.</li>
+        </ul>
+      </>
     ),
   },
   {
@@ -363,7 +372,7 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Guidance, Navigation & Control (GNC) analysis and simulation for the <a className={styles.customLink}
+          Guidance Navigation & Control (GNC) analysis and simulation for the <a className={styles.customLink}
           href="https://www.nasa.gov/content/goes-overview/index.html" rel="noopener noreferrer" target="_blank">GOES</a> satellite
           constellation operated by <a className={styles.customLink}
           href="https://www.nesdis.noaa.gov/" rel="noopener noreferrer" target="_blank">NOAA</a>.
