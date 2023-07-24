@@ -297,7 +297,9 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Machine learning and autonomy.
+          Machine learning and autonomy, worked with the <a className={styles.customLink}
+          href="https://www.northropgrumman.com/ng-next-research/#CA" rel="noopener noreferrer"
+          target="_blank">Cognitive Autonomy</a> Group.
         </p>
         <br />
         <ul>
