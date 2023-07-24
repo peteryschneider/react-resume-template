@@ -275,7 +275,11 @@ export const experience: WorkItem[] = [
         <br />
         <ul>
           <li className={styles.customBullet}>Research and development of complex-valued neural networks exploiting both magnitude and phase
-          data in SAR under  National Geospatial-Intelligence Agency (NGA) Boosting Innovative GEOINT (BIG) BAA.</li>
+          data in SAR under  <a className={styles.customLink}
+          href="https://www.nga.mil/" rel="noopener noreferrer"
+          target="_blank">National Geospatial-Intelligence Agency</a> (NGA) <a className={styles.customLink}
+          href="https://www.nga.mil/news/NGA_solicits_input_for_airborne_SAR_in_Boosting_In.html" rel="noopener noreferrer"
+          target="_blank">Boosting Innovative GEOINT</a> BAA.</li>
           <li className={styles.customBullet}>Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data
           using transfer learning to significantly improve model performance.</li>
           <li className={styles.customBullet}>Redeveloped existing models to modern SOTA single-shot architectures improving performance.</li>
@@ -311,13 +315,16 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          The Aerospace Corporation is a federally funded research and development center (FFRDC) for national-security
-          space that works closely with the United States Space Force and the National Reconnaissance Office (NRO).
+          Machine learning, Guidance Navigation & Control (GNC), and simulation for various space vehicles.
         </p>
         <br />
         <p>
-          Machine learning, Guidance, Navigation & Control (GNC) analysis, and simulation for various space vehicles.
+          The Aerospace Corporation is a federally funded research and development center (FFRDC) for national-security
+          space that works closely with the United States Space Force and the <a className={styles.customLink}
+          href="https://www.nro.gov/" rel="noopener noreferrer"
+          target="_blank">National Reconnaissance Office</a>  (NRO).
         </p>
+        <br />
         <ul>
           <li className={styles.customBullet}>Lead a team working on the next generation GPS satellite constellation (GPS Block III)</li>
         </ul>
