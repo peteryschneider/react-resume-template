@@ -37,8 +37,8 @@ import styles from './styles.module.css';
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'React Resume',
+  description: "Peter Y. Schneider Resume",
 };
 
 /**
@@ -254,7 +254,7 @@ export const experience: WorkItem[] = [
           <li className={styles.customBullet}>Research and development of hyperbolic neural networks improving performance with hierarchical data.</li>
           <li className={styles.customBullet}>Research and development of LLMs including development of custom chat
           assistants, fine-tuning of existing foundational models, providing models with extra specialized knowledge via
-          embedded databases allowing for retrieval, and integration with LangChain. </li>
+          embedded databases for retrieval, and integration with LangChain. </li>
           <li className={styles.customBullet}>Supervised and unsupervised learning of temporal vessel track data
           including use of transformers and parametric UMAP.</li>
 
@@ -270,7 +270,9 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Deep learning with SAR (synthetic aperture radar) imagery.
+          <a className={styles.customLink}
+          href="https://emagsys.com/deep-learning-radar-automated-target-recognition-atr/" rel="noopener noreferrer"
+          target="_blank">Deep learning with SAR</a> (synthetic aperture radar) imagery.
         </p>
         <br />
         <ul>
@@ -299,8 +301,8 @@ export const experience: WorkItem[] = [
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}>Developed and trained deep learning models for multiple projects including perception with satellite
-          imagery and anomaly detection with time-series telemetry data.</li>
+          <li className={styles.customBullet}>Developed and trained deep learning models for multiple projects
+          including perception with satellite imagery and anomaly detection with time-series telemetry data.</li>
           <li className={styles.customBullet}>Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
           simulation platform for autonomous formation flying.</li>
         </ul>
@@ -320,13 +322,24 @@ export const experience: WorkItem[] = [
         <br />
         <p>
           The Aerospace Corporation is a federally funded research and development center (FFRDC) for national-security
-          space that works closely with the United States Space Force and the <a className={styles.customLink}
+          space that works closely with the <a className={styles.customLink}
+          href="https://www.spaceforce.com/about" rel="noopener noreferrer"
+          target="_blank">U.S. Space Force</a> (USSF) and the <a className={styles.customLink}
           href="https://www.nro.gov/" rel="noopener noreferrer"
           target="_blank">National Reconnaissance Office</a>  (NRO).
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}>Lead a team working on the next generation GPS satellite constellation (GPS Block III)</li>
+          <li className={styles.customBullet}>Lead a team working on the next generation GPS satellite constellation (
+          <a className={styles.customLink}
+          href="https://www.lockheedmartin.com/en-us/products/gps.html" rel="noopener noreferrer"
+          target="_blank">GPS Block III</a>).</li>
+          <li className={styles.customBullet}>Machine learning and GNC analysis for USSF and NRO operated
+          satellites, launch vehicles (<a className={styles.customLink}
+          href="https://www.ulalaunch.com/rockets/atlas-v" rel="noopener noreferrer"
+          target="_blank">Atlas V</a> and <a className={styles.customLink}
+          href="https://www.spacex.com/vehicles/falcon-9/" rel="noopener noreferrer"
+          target="_blank">Falcon</a>), and missile systems.</li>
         </ul>
       </>
     ),
