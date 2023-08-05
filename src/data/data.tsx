@@ -238,7 +238,7 @@ export const experience: WorkItem[] = [
     date: 'Jul 2020 - Present',
     company: 'Northrop Grumman Corporation',
     title: 'Staff AI Engineer | Advanced Autonomy Group',
-    link: 'https://www.northropgrumman.com/what-we-do/air/autonomous-systems/',
+    link: 'https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/',
     content: (
       <>
         <p>
@@ -299,7 +299,7 @@ export const experience: WorkItem[] = [
     date: 'Aug 2019 - Jul 2020',
     company: 'Northrop Grumman Corporation',
     title: 'Senior Principal Engineer | Autonomy Research UAS Technology Dept.',
-    link: 'https://www.northropgrumman.com/what-we-do/air/autonomous-systems/',
+    link: 'https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/',
     content: (
       <>
         <p>
