@@ -259,6 +259,12 @@ export const experience: WorkItem[] = [
           including use of transformers and parametric UMAP.</li>
 
         </ul>
+        <br />
+        Mentoring groups of engineers in the role of AI/ML Subject Matter Expert at the sector level:
+        <ul>
+          <li className={styles.customBullet}>AI Advanced Program</li>
+          <li className={styles.customBullet}>AI Techstarters</li>
+        </ul>
       </>
     ),
   },
