@@ -291,6 +291,7 @@ export const experience: WorkItem[] = [
           <li className={styles.customBullet}>Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data
           using transfer learning to significantly improve model performance.</li>
           <li className={styles.customBullet}>Redeveloped existing models to modern SOTA single-shot architectures improving performance.</li>
+          <li className={styles.customBullet}>Presented work at 2020 SAREM forum in Chantilly, Virginia.</li>
         </ul>
       </>
     ),
