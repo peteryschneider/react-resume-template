@@ -297,7 +297,7 @@ export const experience: WorkItem[] = [
     ),
   },
   {
-    date: 'Aug 2019 - Jul 2020',
+    date: 'May 2017 - Aug 2019',
     company: 'Northrop Grumman Corporation',
     title: 'Senior Principal Engineer | Autonomy Research UAS Technology Dept.',
     link: 'https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/',
@@ -306,7 +306,7 @@ export const experience: WorkItem[] = [
         <p>
           Machine learning and autonomy, worked with the <a className={styles.customLink}
           href="https://www.northropgrumman.com/ng-next-research/#CA" rel="noopener noreferrer"
-          target="_blank">Cognitive Autonomy</a> Group.
+          target="_blank">Cognitive Autonomy</a> Research Group.
         </p>
         <br />
         <ul>
@@ -319,7 +319,7 @@ export const experience: WorkItem[] = [
     ),
   },
   {
-    date: 'Apr 2014 - May 2017',
+    date: 'Mar 2014 - Apr 2017',
     company: 'The Aerospace Corporation',
     title: 'Senior Member of the Technical Staff | Guidance & Control Subdivision',
     link: 'https://aerospace.org/',
@@ -354,7 +354,7 @@ export const experience: WorkItem[] = [
     ),
   },
   {
-    date: 'Apr 2014 - May 2017',
+    date: 'May 2012 - Mar 2014',
     company: 'Space Systems Loral (acquired, now Maxar Technologies)',
     title: 'Senior Research and Development Engineer',
     link: 'https://www.maxar.com/',
