@@ -486,7 +486,7 @@ export const education: EducationItem[] = [
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Email', Icon: MailIcon, href: 'mailto:peteryschneider@gmail.com/'},
+  {label: 'Email', Icon: MailIcon, href: 'mailto:peteryschneider@gmail.com'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/peteryschneider/'},
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/peteryschneider'},
 ];
