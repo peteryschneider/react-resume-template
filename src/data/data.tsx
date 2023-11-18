@@ -87,13 +87,13 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I am a machine learning and artificial intelligence engineer leading autonomy initiatives at Northrop Grumman
+      I am a Machine Learning and Artificial Intelligence engineer leading autonomy initiatives at Northrop Grumman
       Aeronautics Systems.
       <br />
       <br />
-      Some of the areas I have worked in include perception, computer vision, synthetic aperture radar (SAR), signal
-      processing, RF, anomaly detection, tracking, natural language processing, guidance and control, and
-      estimation.
+      Some of the areas I have worked in include computer vision, synthetic aperture radar (SAR), natural language
+      processing and Large Language Models (LLMs), signal processing and RF, anomaly detection, and guidance navigation
+      & control (GNC).
     </>
   ),
   aboutItems: [
@@ -242,28 +242,21 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Leading AI and machine learning projects in areas that include computer vision,
-          synthetic aperture radar (SAR), tracking, RF and signal processing, and Large Language Models (LLMs).
+          Leading AI/ML projects focused on deep learning in areas that include computer vision,
+          synthetic aperture radar (SAR), Large Language Models (LLMs), temporal data, RF and signal processing.
         </p>
         <br />
         Selected projects:
         <ul>
-          <li className={styles.customBullet}>Research and development of complex-valued neural networks exploiting both magnitude and phase
+          <li className={styles.customBullet}> Complex-valued neural networks exploiting both magnitude and phase
           data in SAR improving model performance including successful ATR demo deployed on Triton.</li>
-          <li className={styles.customBullet}>Research and development of Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
-          <li className={styles.customBullet}>Research and development of hyperbolic neural networks improving performance with hierarchical data.</li>
-          <li className={styles.customBullet}>Research and development of LLMs including development of custom chat
-          assistants, fine-tuning of existing foundational models, providing models with extra specialized knowledge via
-          embedded databases for retrieval, and integration with LangChain. </li>
-          <li className={styles.customBullet}>Supervised and unsupervised learning of temporal vessel track data
-          including use of transformers and parametric UMAP.</li>
-
-        </ul>
-        <br />
-        Mentoring groups of engineers in the role of AI/ML Subject Matter Expert at the sector level:
-        <ul>
-          <li className={styles.customBullet}>AI Advanced Program</li>
-          <li className={styles.customBullet}>AI Techstarters</li>
+          <li className={styles.customBullet}>Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
+          <li className={styles.customBullet}>Hyperbolic neural networks improving performance with hierarchical data.</li>
+          <li className={styles.customBullet}>Research and development of LLMs including training and fine-tuning
+          models as well as making models context aware via augmentation from external data.</li>
+          <li className={styles.customBullet}>Multiple roles as AI/ML Subject Matter Expert at the sector level
+          including advising matters as member of the Enterprise AI Governance Council and mentorship
+          roles in various corporate AI programs.</li>
         </ul>
       </>
     ),
