@@ -253,8 +253,8 @@ export const experience: WorkItem[] = [
           <li className={styles.customBullet}>Research and development of LLMs including training and fine-tuning
           models as well as making models context aware via augmentation from external data.</li>
           <li className={styles.customBullet}>Multiple roles as AI/ML Subject Matter Expert at the sector level
-          including advising matters as member of the Enterprise AI Governance Council and mentorship
-          roles in various corporate AI programs.</li>
+          including advising as member of the Enterprise AI Governance Council and mentorship in various corporate
+          AI programs.</li>
         </ul>
       </>
     ),
