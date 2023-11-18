@@ -215,18 +215,6 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://www.nasa.gov/content/goes-overview/index.html',
     image: porfolioImage9,
   },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://www.peteryschneider.com',
-    image: porfolioImage11,
-  },
 ];
 
 /**
