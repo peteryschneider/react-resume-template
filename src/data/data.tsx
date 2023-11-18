@@ -115,7 +115,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Matlab',
-        level: 9,
+        level: 7,
       },
       {
         name: 'C++',
@@ -136,6 +136,18 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Pytorch',
+        level: 10,
+      },
+      {
+        name: 'Pytorch Geometric (PyG)',
+        level: 6,
+      },
+      {
+        name: 'Deep Graph Library (DGL)',
+        level: 6,
+      },
+      {
+        name: 'Spektral',
         level: 6,
       },
     ],
