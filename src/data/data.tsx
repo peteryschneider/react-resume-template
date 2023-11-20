@@ -85,21 +85,18 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I am a Staff AI Engineer leading autonomy work at Northrop Grumman.
-
-      I have 15 years experience in autonomy, with the majority focused in deep learning.
+      I am a Staff AI Engineer leading autonomy work at Northrop Grumman. My work is focused in deep learning.
       <br />
       <br />
-      Some of the areas I have worked in include computer vision, synthetic aperture radar (SAR),
-      Large Language Models (LLMs), signal processing and RF, anomaly detection, and guidance navigation
-      & control (GNC).
+      Some of the deep learning areas I have worked in include computer vision, synthetic aperture radar (SAR),
+      Large Language Models (LLMs), signal processing and RF, anomaly detection, and temporal data.
     </>
   ),
   aboutItems: [
     {label: 'Employment', text: 'AI/ML @Northrop Grumman', Icon: BuildingOfficeIcon},
     {label: 'Location', text: 'Los Angeles, CA', Icon: MapPinIcon},
-    {label: 'Study', text: 'Computer Science @Georgia Tech', Icon: AcademicCapIcon},
-    {label: 'Study', text: 'Aerospace Engineering @UCLA', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'M.S. Computer Science @Georgia Tech', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'M.S. Aerospace Engineering @UCLA', Icon: AcademicCapIcon},
   ],
 };
 
