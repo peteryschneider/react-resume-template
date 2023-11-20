@@ -1,10 +1,10 @@
 import {
   AcademicCapIcon,
-  DownloadIcon,
-  LocationMarkerIcon,
-  MailIcon,
-  OfficeBuildingIcon,
-} from '@heroicons/react/outline';
+  ArrowDownTrayIcon,
+  BuildingOfficeIcon,
+  EnvelopeIcon,
+  MapPinIcon,
+} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -51,7 +51,7 @@ export const SectionId = {
   Stats: 'stats',
 } as const;
 
-export type SectionId = typeof SectionId[keyof typeof SectionId];
+export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 
 /**
  * Hero section
@@ -73,7 +73,7 @@ export const heroData: Hero = {
       href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
-      Icon: DownloadIcon,
+      Icon: ArrowDownTrayIcon,
     },
   ],
 };
@@ -96,8 +96,8 @@ export const aboutData: About = {
     </>
   ),
   aboutItems: [
-    {label: 'Employment', text: 'AI/ML @Northrop Grumman', Icon: OfficeBuildingIcon},
-    {label: 'Location', text: 'Los Angeles, CA', Icon: LocationMarkerIcon},
+    {label: 'Employment', text: 'AI/ML @Northrop Grumman', Icon: BuildingOfficeIcon},
+    {label: 'Location', text: 'Los Angeles, CA', Icon: MapPinIcon},
     {label: 'Study', text: 'Computer Science @Georgia Tech', Icon: AcademicCapIcon},
     {label: 'Study', text: 'Aerospace Engineering @UCLA', Icon: AcademicCapIcon},
   ],
@@ -478,7 +478,7 @@ export const education: EducationItem[] = [
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Email', Icon: MailIcon, href: 'mailto:peteryschneider@gmail.com'},
+  {label: 'Email', Icon: EnvelopeIcon, href: 'mailto:peteryschneider@gmail.com'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/peteryschneider/'},
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/peteryschneider'},
 ];

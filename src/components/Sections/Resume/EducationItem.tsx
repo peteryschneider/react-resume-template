@@ -1,4 +1,4 @@
-import {ChevronDownIcon, ChevronUpIcon} from '@heroicons/react/outline';
+import {ChevronDownIcon, ChevronUpIcon} from '@heroicons/react/24/outline';
 import React, {FC, memo, useState} from 'react';
 
 import {EducationItem} from '../../../data/dataDef';
