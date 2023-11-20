@@ -62,8 +62,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">Machine Learning</strong> and
-        <strong className="text-stone-100"> Artificial Intelligence</strong> engineer working in Autonomy at
+        <strong className="text-stone-100">Artificial Intelligence</strong> and
+        <strong className="text-stone-100"> Machine Learning</strong> in Autonomy at
         Northrop Grumman
       </p>
     </>
@@ -85,12 +85,13 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I am a Machine Learning and Artificial Intelligence engineer leading autonomy initiatives at Northrop Grumman
-      Aeronautics Systems.
+      I am a Staff AI Engineer leading autonomy work at Northrop Grumman.
+
+      I have 15 years experience in autonomy, with the majority focused in deep learning.
       <br />
       <br />
-      Some of the areas I have worked in include computer vision, synthetic aperture radar (SAR), natural language
-      processing and Large Language Models (LLMs), signal processing and RF, anomaly detection, and guidance navigation
+      Some of the areas I have worked in include computer vision, synthetic aperture radar (SAR),
+      Large Language Models (LLMs), signal processing and RF, anomaly detection, and guidance navigation
       & control (GNC).
     </>
   ),
