@@ -46,6 +46,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Portfolio: 'portfolio',
+  Projects: 'projects',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -85,11 +86,11 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I am a Staff AI Engineer leading autonomy work at Northrop Grumman. My work is focused in deep learning.
+      I am a Staff AI Engineer leading autonomy work at Northrop Grumman.
       <br />
       <br />
-      Some of the deep learning areas I have worked in include computer vision, synthetic aperture radar (SAR),
-      Large Language Models (LLMs), signal processing and RF, anomaly detection, and temporal data.
+      My work is focused in deep learning. This has included applications for computer vision, synthetic aperture radar (SAR),
+      Large Language Models (LLMs), graphs and network-based data, signal processing and RF, and temporal data.
     </>
   ),
   aboutItems: [
@@ -233,13 +234,14 @@ export const experience: WorkItem[] = [
   {
     date: 'Jul 2020 - Present',
     company: 'Northrop Grumman Corporation',
-    title: 'Staff AI Engineer | Advanced Autonomy Group',
+    title: 'Staff AI Engineer',
     link: 'https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/',
     content: (
       <>
         <p>
           Leading AI/ML projects focused on deep learning in areas that include computer vision,
-          synthetic aperture radar (SAR), Large Language Models (LLMs), temporal data, RF and signal processing.
+          synthetic aperture radar (SAR), Large Language Models (LLMs), graph neural networks (GNNs), temporal data,
+          RF and signal processing.
         </p>
         <br />
         Selected projects:
@@ -248,10 +250,9 @@ export const experience: WorkItem[] = [
           data in SAR improving model performance including successful ATR demo deployed on Triton.</li>
           <li className={styles.customBullet}>Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
           <li className={styles.customBullet}>Hyperbolic neural networks improving performance with hierarchical data.</li>
-          <li className={styles.customBullet}>Research and development of LLMs including training and fine-tuning
-          models as well as making models context aware via augmentation from external data.</li>
           <li className={styles.customBullet}>Multiple roles as AI/ML Subject Matter Expert at the sector level
-          including advising as member of the Enterprise AI Governance Council and mentorship in various corporate
+          including advising corporate direction as member of the Enterprise AI Governance Council and mentorship
+          in various corporate
           AI programs.</li>
         </ul>
       </>
@@ -288,7 +289,7 @@ export const experience: WorkItem[] = [
   {
     date: 'May 2017 - Aug 2019',
     company: 'Northrop Grumman Corporation',
-    title: 'Senior Principal Engineer | Autonomy Research UAS Technology Dept.',
+    title: 'Senior Principal Engineer',
     link: 'https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/',
     content: (
       <>
@@ -310,34 +311,29 @@ export const experience: WorkItem[] = [
   {
     date: 'Mar 2014 - Apr 2017',
     company: 'The Aerospace Corporation',
-    title: 'Senior Member of the Technical Staff | Guidance & Control Subdivision',
+    title: 'Senior Member of the Technical Staff',
     link: 'https://aerospace.org/',
     content: (
       <>
         <p>
-          Machine learning, Guidance Navigation & Control (GNC), and simulation for various space vehicles.
-        </p>
-        <br />
-        <p>
-          The Aerospace Corporation is a federally funded research and development center (FFRDC) for national-security
-          space that works closely with the <a className={styles.customLink}
+          Machine learning, Guidance Navigation & Control (GNC) analysis, and modeling/simulation for space vehicles
+          operated by the <a className={styles.customLink}
           href="https://www.spaceforce.com/about" rel="noopener noreferrer"
-          target="_blank">U.S. Space Force</a> (USSF) and the <a className={styles.customLink}
+          target="_blank">U.S. Space Force</a> (USSF) and <a className={styles.customLink}
           href="https://www.nro.gov/" rel="noopener noreferrer"
-          target="_blank">National Reconnaissance Office</a>  (NRO).
+          target="_blank">National Reconnaissance Office</a> (NRO).
         </p>
         <br />
         <ul>
           <li className={styles.customBullet}>Lead a team working on the next generation GPS satellite constellation (
           <a className={styles.customLink}
           href="https://www.lockheedmartin.com/en-us/products/gps.html" rel="noopener noreferrer"
-          target="_blank">GPS Block III</a>).</li>
-          <li className={styles.customBullet}>Machine learning and GNC analysis for USSF and NRO operated
-          satellites, launch vehicles (<a className={styles.customLink}
+          target="_blank">GPS Block III</a>) and worked on other satellites, launch vehicles (<a className={styles.customLink}
           href="https://www.ulalaunch.com/rockets/atlas-v" rel="noopener noreferrer"
           target="_blank">Atlas V</a> and <a className={styles.customLink}
           href="https://www.spacex.com/vehicles/falcon-9/" rel="noopener noreferrer"
-          target="_blank">Falcon</a>), and missile systems.</li>
+          target="_blank">Falcon</a>), and missile systems.
+          </li>
         </ul>
       </>
     ),
@@ -350,7 +346,7 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-        Guidance Navigation & Control (GNC) analysis and simulation for various <a className={styles.customLink}
+        Guidance Navigation & Control (GNC) analysis and modeling/simulation for various <a className={styles.customLink}
           href="https://space.skyrocket.de/doc_sat/ssloral-1300.htm" rel="noopener noreferrer" target="_blank">satellites</a>.
         </p>
         <br />
@@ -370,7 +366,7 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Guidance Navigation & Control (GNC) analysis and simulation for the <a className={styles.customLink}
+          Guidance Navigation & Control (GNC) analysis and modeling/simulation for the <a className={styles.customLink}
           href="https://www.nasa.gov/content/goes-overview/index.html" rel="noopener noreferrer" target="_blank">GOES</a> satellite
           constellation operated by <a className={styles.customLink}
           href="https://www.nesdis.noaa.gov/" rel="noopener noreferrer" target="_blank">NOAA</a>.
