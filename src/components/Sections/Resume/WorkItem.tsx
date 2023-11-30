@@ -23,7 +23,7 @@ const WorkItem: FC<{item: WorkItem}> = memo(({item}) => {
             {date}
           </span>
         </div>
-      </div>
+      <div className="text-left">
       {content}
     </div>
   );
