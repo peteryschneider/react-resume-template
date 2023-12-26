@@ -25,7 +25,7 @@ const WorkItem: FC<{item: WorkItem}> = memo(({item}) => {
         </div>
       </div>
       <div className="text-left">
-      {content}
+        {content}
       </div>
     </div>
   );

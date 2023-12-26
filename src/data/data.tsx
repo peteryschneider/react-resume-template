@@ -18,6 +18,7 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -64,7 +65,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">Artificial Intelligence</strong> and
-        <strong className="text-stone-100"> Machine Learning</strong> in Autonomy at
+        <strong className="text-stone-100"> Machine Learning</strong> at
         Northrop Grumman
       </p>
     </>
@@ -86,7 +87,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I am a Staff AI Engineer leading autonomy work at Northrop Grumman.
+      I am a Staff AI Engineer leading AI/ML projects at Northrop Grumman.
       <br />
       <br />
       My work is focused in deep learning. This has included applications for computer vision, synthetic aperture radar (SAR),
@@ -224,6 +225,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://www.nasa.gov/content/goes-overview/index.html',
     image: porfolioImage9,
   },
+  {
+    title: 'Strike',
+    description: 'AI/ML for Strike programs.',
+    url: 'https://news.northropgrumman.com/news/strike',
+    image: porfolioImage10,
+  },
 ];
 
 /**
@@ -235,25 +242,27 @@ export const experience: WorkItem[] = [
     date: 'Jul 2020 - Present',
     company: 'Northrop Grumman Corporation',
     title: 'Staff AI Engineer',
-    link: 'https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/',
+    link: 'https://www.northropgrumman.com/',
     content: (
       <>
         <p>
-          Leading AI/ML projects focused on deep learning in areas that include computer vision,
+          Leading <a className={styles.customLink}
+          href="https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/" rel="noopener noreferrer"
+          target="_blank">AI/ML</a> projects focused on deep learning in areas that include computer vision,
           synthetic aperture radar (SAR), Large Language Models (LLMs), graph neural networks (GNNs), temporal data,
           RF and signal processing.
         </p>
         <br />
         Selected projects:
         <ul>
-          <li className={styles.customBullet}> Complex-valued neural networks exploiting both magnitude and phase
-          data in SAR improving model performance including successful ATR demo deployed on Triton.</li>
-          <li className={styles.customBullet}>Graph Neural Networks (GNNs) for multi-view multi-object tracking.</li>
+          <li className={styles.customBullet}> Complex-valued neural networks better exploiting both magnitude and phase
+          in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
+          <li className={styles.customBullet}>GNNs with heterogenous graphs for various applications, including for
+          multi-view multi-object tracking.</li>
           <li className={styles.customBullet}>Hyperbolic neural networks improving performance with hierarchical data.</li>
           <li className={styles.customBullet}>Multiple roles as AI/ML Subject Matter Expert at the sector level
-          including advising corporate direction as member of the Enterprise AI Governance Council and mentorship
-          in various corporate
-          AI programs.</li>
+          including advising corporate direction as member of the Enterprise AI Governance Council and providing
+          mentorship in corporate AI programs.</li>
         </ul>
       </>
     ),
@@ -268,7 +277,7 @@ export const experience: WorkItem[] = [
         <p>
           <a className={styles.customLink}
           href="https://emagsys.com/deep-learning-radar-automated-target-recognition-atr/" rel="noopener noreferrer"
-          target="_blank">Deep learning with SAR</a> (synthetic aperture radar) imagery.
+          target="_blank">Deep learning with SAR imagery</a>.
         </p>
         <br />
         <ul>
@@ -290,7 +299,7 @@ export const experience: WorkItem[] = [
     date: 'May 2017 - Aug 2019',
     company: 'Northrop Grumman Corporation',
     title: 'Senior Principal Engineer',
-    link: 'https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/',
+    link: 'https://www.northropgrumman.com/',
     content: (
       <>
         <p>
@@ -316,10 +325,10 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Machine learning, Guidance Navigation & Control (GNC) analysis, and modeling/simulation for space vehicles
-          operated by the <a className={styles.customLink}
+          Machine learning, Guidance, Navigation & Control (GNC), and modeling/simulation for national security space
+          in support of the <a className={styles.customLink}
           href="https://www.spaceforce.com/about" rel="noopener noreferrer"
-          target="_blank">U.S. Space Force</a> (USSF) and <a className={styles.customLink}
+          target="_blank">U.S. Space Force</a> and <a className={styles.customLink}
           href="https://www.nro.gov/" rel="noopener noreferrer"
           target="_blank">National Reconnaissance Office</a> (NRO).
         </p>
@@ -346,7 +355,7 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-        Guidance Navigation & Control (GNC) analysis and modeling/simulation for various <a className={styles.customLink}
+        Guidance, Navigation & Control (GNC) and modeling/simulation for <a className={styles.customLink}
           href="https://space.skyrocket.de/doc_sat/ssloral-1300.htm" rel="noopener noreferrer" target="_blank">satellites</a>.
         </p>
         <br />
@@ -366,7 +375,7 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Guidance Navigation & Control (GNC) analysis and modeling/simulation for the <a className={styles.customLink}
+          Guidance, Navigation & Control (GNC) and modeling/simulation for the <a className={styles.customLink}
           href="https://www.nasa.gov/content/goes-overview/index.html" rel="noopener noreferrer" target="_blank">GOES</a> satellite
           constellation operated by <a className={styles.customLink}
           href="https://www.nesdis.noaa.gov/" rel="noopener noreferrer" target="_blank">NOAA</a>.
@@ -420,7 +429,7 @@ export const education: EducationItem[] = [
   },
 
   {
-    date: 'June 2014',
+    date: 'Jun 2014',
     school: 'University of California, Los Angeles',
     degree: 'M.S. Aerospace Engineering',
     link: 'https://samueli.ucla.edu/',
@@ -454,7 +463,7 @@ export const education: EducationItem[] = [
   },
 
   {
-    date: 'June 2008',
+    date: 'Jun 2008',
     school: 'University of California, Los Angeles',
     degree: 'B.S. Aerospace Engineering',
     link: 'https://samueli.ucla.edu/',
