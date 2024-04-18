@@ -139,6 +139,10 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
+        name: 'JAX',
+        level: 6,
+      },
+      {
         name: 'Pytorch Geometric (PyG)',
         level: 6,
       },
@@ -227,7 +231,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Strike',
-    description: 'AI/ML for Strike programs.',
+    description: 'AI/ML for Strike programs, PI for Strike Aligned AI Research.',
     url: 'https://news.northropgrumman.com/news/strike',
     image: porfolioImage10,
   },
@@ -255,6 +259,9 @@ export const experience: WorkItem[] = [
         <br />
         Selected projects:
         <ul>
+          <li className={styles.customBullet}> Principal Investigator for <a className={styles.customLink}
+          href="https://news.northropgrumman.com/news/strike" rel="noopener noreferrer"
+          target="_blank">Strike</a> Aligned AI Research.</li>
           <li className={styles.customBullet}> Complex-valued neural networks better exploiting both magnitude and phase
           in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
           <li className={styles.customBullet}>GNNs with heterogenous graphs for various applications, including for
