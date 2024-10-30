@@ -236,15 +236,12 @@ export const experience: WorkItem[] = [
         <ul>
           <li className={styles.customBullet}> Principal Investigator for <a className={styles.customLink}
           href="https://news.northropgrumman.com/news/strike" rel="noopener noreferrer"
-          target="_blank">Strike</a> Aligned AI Research.</li>
+          target="_blank">Strike</a> Aligned AI Research, including work with LLMs, multimodal LVLMs, and agents.</li>
           <li className={styles.customBullet}> Complex-valued neural networks better exploiting both magnitude and phase
           in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
           <li className={styles.customBullet}>GNNs with heterogenous graphs for various applications, including for
           multi-view multi-object tracking.</li>
           <li className={styles.customBullet}>Hyperbolic neural networks improving performance with hierarchical data.</li>
-          <li className={styles.customBullet}>Multiple roles as AI/ML Subject Matter Expert at the sector level
-          including advising corporate direction as member of the Enterprise AI Governance Council and providing
-          mentorship in corporate AI programs.</li>
         </ul>
       </>
     ),
