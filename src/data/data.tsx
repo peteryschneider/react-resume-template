@@ -171,7 +171,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'RF Machine Learning',
     description: 'RF Machine Learning, including research of complex-valued neural networks and collaboration with Deepwave Digital.',
-    url: 'https://news.northropgrumman.com/news/releases/northrop-grumman-invests-in-deepwave-digitals-ai',
+    url: 'https://www.c4isrnet.com/intel-geoint/2021/02/02/with-deepwave-digital-northrop-grumman-is-pushing-processing-to-the-edge/',
     image: porfolioImage4,
   },
   {
@@ -183,7 +183,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Cognitive Autonomy',
     description: 'Cognitive Autonomy research group at Northrop Grumman.',
-    url: 'https://www.northropgrumman.com/ng-next-research/#CA',
+    url: 'https://now.northropgrumman.com/cognitive-automation-drones-disaster-relief',
     image: porfolioImage6,
   },
   {
@@ -207,7 +207,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Strike',
     description: 'AI/ML for Strike programs, PI for Strike Aligned AI Research.',
-    url: 'https://news.northropgrumman.com/news/strike',
+    url: 'https://www.northropgrumman.com/what-we-do/air/b-21-raider',
     image: porfolioImage10,
   },
 ];
@@ -234,9 +234,7 @@ export const experience: WorkItem[] = [
         <br />
         Selected projects:
         <ul>
-          <li className={styles.customBullet}> Principal Investigator for <a className={styles.customLink}
-          href="https://news.northropgrumman.com/news/strike" rel="noopener noreferrer"
-          target="_blank">Strike</a> Aligned AI Research, including work with LLMs, multimodal LVLMs, and agents.</li>
+          <li className={styles.customBullet}> Principal Investigator for Strike-Aligned AI Research, including work with LLMs, multimodal LVLMs, and agentic AI.</li>
           <li className={styles.customBullet}> Complex-valued neural networks better exploiting both magnitude and phase
           in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
           <li className={styles.customBullet}>GNNs with heterogenous graphs for various applications, including for
@@ -264,7 +262,7 @@ export const experience: WorkItem[] = [
           data in SAR under  <a className={styles.customLink}
           href="https://www.nga.mil/" rel="noopener noreferrer"
           target="_blank">National Geospatial-Intelligence Agency</a> (NGA) <a className={styles.customLink}
-          href="https://www.nga.mil/news/NGA_solicits_input_for_airborne_SAR_in_Boosting_In.html" rel="noopener noreferrer"
+          href="https://www.nga.mil/resources/Boosting_Innovative_GEOINT_Research_Broad_Agency_A.html" rel="noopener noreferrer"
           target="_blank">Boosting Innovative GEOINT</a> BAA.</li>
           <li className={styles.customBullet}>Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data
           using transfer learning to significantly improve model performance.</li>
@@ -283,7 +281,7 @@ export const experience: WorkItem[] = [
       <>
         <p>
           Machine learning and autonomy, worked with the <a className={styles.customLink}
-          href="https://www.northropgrumman.com/ng-next-research/#CA" rel="noopener noreferrer"
+          href="https://now.northropgrumman.com/cognitive-automation-drones-disaster-relief" rel="noopener noreferrer"
           target="_blank">Cognitive Autonomy</a> Research Group.
         </p>
         <br />
