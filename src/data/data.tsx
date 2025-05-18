@@ -36,8 +36,8 @@ import styles from './styles.module.css';
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume',
-  description: "Peter Y. Schneider Resume",
+  title: 'Peter Schneider | AI and Machine Learning Engineer',
+  description: "Welcome to my personal website! I'm Peter Schneider, an AI and Machine Learning Engineer working in deep learning.",
 };
 
 /**
@@ -96,7 +96,7 @@ export const aboutData: About = {
   ),
   aboutItems: [
     {label: 'Employment', text: 'AI/ML @Northrop Grumman', Icon: BuildingOfficeIcon},
-    {label: 'Location', text: 'Los Angeles, CA', Icon: MapPinIcon},
+    {label: 'Location', text: 'Manhattan Beach, CA', Icon: MapPinIcon},
     {label: 'Study', text: 'M.S. Computer Science @Georgia Tech', Icon: AcademicCapIcon},
     {label: 'Study', text: 'M.S. Aerospace Engineering @UCLA', Icon: AcademicCapIcon},
   ],
