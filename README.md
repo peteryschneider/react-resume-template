@@ -1,1 +1,1 @@
-# React JS Resume Website for Peter Schneider
+React JS Resume Website for Peter Schneider
