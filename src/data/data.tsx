@@ -73,10 +73,10 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
+      onClick: () => alert('Please contact me to request a copy of my resume.'),
     },
   ],
 };
@@ -242,11 +242,11 @@ export const experience: WorkItem[] = [
         Selected projects:
         <ul>
           <li className={styles.customBullet}> Principal Investigator for Strike-Aligned AI Research, including work with LLMs, multimodal LVLMs, and agentic AI.</li>
-          <li className={styles.customBullet}> Complex-valued neural networks better exploiting both magnitude and phase
+          <li className={styles.customBullet}> Developed complex-valued neural networks better exploiting both magnitude and phase
           in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
-          <li className={styles.customBullet}>GNNs with heterogenous graphs for various applications, including for
+          <li className={styles.customBullet}>Developed GNNs with heterogenous graphs for various applications, including for
           multi-view multi-object tracking.</li>
-          <li className={styles.customBullet}>Hyperbolic neural networks improving performance with hierarchical data.</li>
+          <li className={styles.customBullet}>Developed hyperbolic neural networks improving performance with hierarchical data.</li>
         </ul>
       </>
     ),
