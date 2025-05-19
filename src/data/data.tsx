@@ -19,6 +19,7 @@ import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -206,9 +207,15 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Strike',
-    description: 'AI/ML for Strike programs, PI for Strike Aligned AI Research.',
+    description: 'AI/ML for Strike programs, PI for Strike-Aligned AI Research.',
     url: 'https://www.northropgrumman.com/what-we-do/air/b-21-raider',
     image: porfolioImage10,
+  },
+    {
+    title: 'F-35',
+    description: 'AI/ML for F-35 including role as PI for Strike-Aligned AI Research.',
+    url: 'https://www.northropgrumman.com/what-we-do/air/f35-lightning',
+    image: porfolioImage11,
   },
 ];
 
