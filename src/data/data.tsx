@@ -244,6 +244,10 @@ export const experience: WorkItem[] = [
           <li className={styles.customBullet}> Principal Investigator for Strike-Aligned AI Research, including work with LLMs, multimodal LVLMs, and agentic AI.</li>
           <li className={styles.customBullet}> Developed complex-valued neural networks better exploiting both magnitude and phase
           in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
+          <li className={styles.customBullet}> Developed neural networks that predict the optical response of metaoptics
+          faster and more accurately than traditional simulation methods; Trade Secret granted, recognized with NG Innovation Award,
+          and <a className={styles.customLink}href="https://opg.optica.org/ol/abstract.cfm?doi=10.1364/OL.564220" rel="noopener noreferrer"
+          target="_blank">paper</a> published in Optics Letters.</li>
           <li className={styles.customBullet}>Developed GNNs with heterogenous graphs for various applications, including for
           multi-view multi-object tracking.</li>
           <li className={styles.customBullet}>Developed hyperbolic neural networks improving performance with hierarchical data.</li>
