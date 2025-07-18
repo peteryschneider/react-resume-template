@@ -394,8 +394,7 @@ export const education: EducationItem[] = [
       <p>
         <strong>TA</strong>
         <ul>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://www.sunlab.org/teaching/cse8803/fall2016/aboutus/" rel="noopener noreferrer" target="_blank">CSE 8803: Big Data for Healthcare</a></li>
+          <li className={styles.customBullet}>CSE 8803: Big Data for Healthcare</li>
           <li className={styles.customBullet}>CS 8803: AI for Robotics</li>
         </ul>
         <strong>Coursework</strong>
