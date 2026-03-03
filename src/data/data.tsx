@@ -91,8 +91,8 @@ export const aboutData: About = {
       I am a Staff AI Engineer leading AI/ML projects at Northrop Grumman.
       <br />
       <br />
-      My work is focused in deep learning. This has included applications for computer vision, synthetic aperture radar (SAR),
-      Large Language Models (LLMs), graphs and network-based data, signal processing and RF, and temporal data.
+      My work is focused in deep learning, spanning perception, language models (LLMs), graph neural networks,
+      temporal modeling, and autonomy systems including path planning and RF signal processing.
     </>
   ),
   aboutItems: [
@@ -323,11 +323,11 @@ export const experience: WorkItem[] = [
           <li className={styles.customBullet}>Lead a team working on the next generation GPS satellite constellation (
           <a className={styles.customLink}
           href="https://www.lockheedmartin.com/en-us/products/gps.html" rel="noopener noreferrer"
-          target="_blank">GPS Block III</a>) and worked on other satellites, launch vehicles (<a className={styles.customLink}
+          target="_blank">GPS Block III</a>), also worked on launch vehicles (<a className={styles.customLink}
           href="https://www.ulalaunch.com/rockets/atlas-v" rel="noopener noreferrer"
           target="_blank">Atlas V</a> and <a className={styles.customLink}
           href="https://www.spacex.com/vehicles/falcon-9/" rel="noopener noreferrer"
-          target="_blank">Falcon</a>), and missile systems.
+          target="_blank">Falcon</a>), missile systems, and other satellite constellations.
           </li>
         </ul>
       </>
@@ -335,7 +335,7 @@ export const experience: WorkItem[] = [
   },
   {
     date: 'May 2012 - Mar 2014',
-    company: 'Space Systems Loral (acquired, now Maxar Technologies)',
+    company: 'Space Systems Loral (acquired, now Vantor)',
     title: 'Senior Research and Development Engineer',
     link: 'https://www.maxar.com/',
     content: (
@@ -344,12 +344,6 @@ export const experience: WorkItem[] = [
         Guidance, Navigation & Control (GNC) and modeling/simulation for <a className={styles.customLink}
           href="https://space.skyrocket.de/doc_sat/ssloral-1300.htm" rel="noopener noreferrer" target="_blank">satellites</a>.
         </p>
-        <br />
-        <ul>
-          <li className={styles.customBullet}>Developed new control layer capable of autonomously navigating satellites
-          through on-orbit scenarios from the ground and software tools to improve autonomous accounting of propellant
-           usage.</li>
-        </ul>
       </>
     ),
   },
@@ -366,14 +360,6 @@ export const experience: WorkItem[] = [
           constellation operated by <a className={styles.customLink}
           href="https://www.nesdis.noaa.gov/" rel="noopener noreferrer" target="_blank">NOAA</a>.
         </p>
-        <br />
-        <ul>
-          <li className={styles.customBullet}>Presented a <a className={styles.customLink}
-          href="https://arc.aiaa.org/doi/pdf/10.2514/6.2010-2140" rel="noopener noreferrer" target="_blank">
-          paper</a> on thruster leak analysis at the <a className={styles.customLink}
-          href="https://arc.aiaa.org/doi/book/10.2514/MSPOP10" rel="noopener noreferrer" target="_blank">
-          SpaceOps 2010 Conference</a> in Huntsville, Alabama.</li>
-        </ul>
       </>
     ),
   },
