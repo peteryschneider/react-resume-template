@@ -234,23 +234,21 @@ export const experience: WorkItem[] = [
         <p>
           Leading <a className={styles.customLink}
           href="https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/" rel="noopener noreferrer"
-          target="_blank">AI/ML</a> projects focused on deep learning in areas that include computer vision,
-          synthetic aperture radar (SAR), Large Language Models (LLMs), graph neural networks (GNNs), temporal data,
-          RF and signal processing.
+          target="_blank">AI/ML</a> projects in deep learning, spanning perception, language models (LLMs), graph neural networks,
+          temporal modeling, and autonomy systems including path planning and RF signal processing.
         </p>
         <br />
         Selected projects:
         <ul>
           <li className={styles.customBullet}> Principal Investigator for Strike-Aligned AI Research, including work with LLMs, multimodal LVLMs, and agentic AI.</li>
-          <li className={styles.customBullet}> Developed complex-valued neural networks better exploiting both magnitude and phase
+          <li className={styles.customBullet}> Architected transformer-based neural networks for constrained multi-objective path planning,
+          learning optimal trajectories that minimize detection risk while satisfying mission constraints; designed end-to-end training pipelines combining behavior cloning pretraining with gradient-based reinforcement learning fine-tuning.</li>
+          <li className={styles.customBullet}> Architected complex-valued neural networks better exploiting both magnitude and phase
           in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
-          <li className={styles.customBullet}> Developed neural networks that predict the optical response of metaoptics
+          <li className={styles.customBullet}> Architected transformer-based neural networks that predict the optical response of metaoptics
           faster and more accurately than traditional simulation methods; Trade Secret granted, recognized with NG Innovation Award,
           and <a className={styles.customLink}href="https://opg.optica.org/ol/abstract.cfm?doi=10.1364/OL.564220" rel="noopener noreferrer"
           target="_blank">paper</a> published in Optics Letters.</li>
-          <li className={styles.customBullet}>Developed GNNs with heterogenous graphs for various applications, including for
-          multi-view multi-object tracking.</li>
-          <li className={styles.customBullet}>Developed hyperbolic neural networks improving performance with hierarchical data.</li>
         </ul>
       </>
     ),
