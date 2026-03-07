@@ -240,7 +240,9 @@ export const experience: WorkItem[] = [
         <br />
         Selected projects:
         <ul>
-          <li className={styles.customBullet}> Principal Investigator for Strike-Aligned AI Research, including work with LLMs, multimodal LVLMs, and agentic AI.</li>
+          <li className={styles.customBullet}> Principal Investigator for <a className={styles.customLink}
+          href="https://www.northropgrumman.com/what-we-do/aircraft/b-21-raider" rel="noopener noreferrer"
+          target="_blank">Strike</a>-Aligned AI Research, guiding projects from from early-stage research through cross-program collaboration, stakeholder engagement, and program insertions.</li>
           <li className={styles.customBullet}> Architected transformer-based neural networks for constrained multi-objective path planning,
           learning optimal trajectories that minimize detection risk while satisfying mission constraints; designed end-to-end training pipelines combining behavior cloning pretraining with gradient-based reinforcement learning fine-tuning.</li>
           <li className={styles.customBullet}> Architected complex-valued neural networks better exploiting both magnitude and phase
