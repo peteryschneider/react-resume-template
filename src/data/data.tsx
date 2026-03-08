@@ -248,7 +248,7 @@ export const experience: WorkItem[] = [
           <li className={styles.customBullet}> Architected complex-valued neural networks better exploiting both magnitude and phase
           in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
           <li className={styles.customBullet}> Architected transformer-based neural networks that predict the optical response of metaoptics
-          faster and more accurately than traditional simulation methods; Trade Secret granted, recognized with NG Innovation Award,
+          faster and more accurately than traditional simulation methods; Trade Secret granted, NG Innovation Award,
           and <a className={styles.customLink}href="https://opg.optica.org/ol/abstract.cfm?doi=10.1364/OL.564220" rel="noopener noreferrer"
           target="_blank">paper</a> published in Optics Letters.</li>
         </ul>
@@ -291,15 +291,14 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Machine learning and autonomy, worked with the <a className={styles.customLink}
+          Machine Learning and autonomy; worked with the <a className={styles.customLink}
           href="https://now.northropgrumman.com/cognitive-automation-drones-disaster-relief" rel="noopener noreferrer"
           target="_blank">Cognitive Autonomy</a> Research Group.
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}>Developed and trained deep learning models for multiple projects
-          including perception with satellite imagery and anomaly detection with time-series telemetry data.</li>
-          <li className={styles.customBullet}>Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
+          <li className={styles.customBullet}>Developed and trained neural networks for satellite imagery perception and anomaly detection with time-series telemetry data.</li>
+          <li className={styles.customBullet}>Developed trajectory optimization and nonlinear state estimation algorithms and supporting
           simulation platform for autonomous formation flying.</li>
         </ul>
       </>
@@ -313,8 +312,8 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Machine learning, Guidance, Navigation & Control (GNC), and modeling/simulation for national security space
-          in support of the <a className={styles.customLink}
+          Machine Learning, GNC (Guidance, Navigation & Control), and Modeling & Simulation for national security space
+          supporting the <a className={styles.customLink}
           href="https://www.spaceforce.com/about" rel="noopener noreferrer"
           target="_blank">U.S. Space Force</a> and <a className={styles.customLink}
           href="https://www.nro.gov/" rel="noopener noreferrer"
@@ -322,10 +321,10 @@ export const experience: WorkItem[] = [
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}>Lead a team working on the next generation GPS satellite constellation (
+          <li className={styles.customBullet}>Led a team working on the next-generation GPS satellite constellation (
           <a className={styles.customLink}
           href="https://www.lockheedmartin.com/en-us/products/gps.html" rel="noopener noreferrer"
-          target="_blank">GPS Block III</a>), also worked on launch vehicles (<a className={styles.customLink}
+          target="_blank">GPS Block III</a>) and contributed to launch vehicles (<a className={styles.customLink}
           href="https://www.ulalaunch.com/rockets/atlas-v" rel="noopener noreferrer"
           target="_blank">Atlas V</a> and <a className={styles.customLink}
           href="https://www.spacex.com/vehicles/falcon-9/" rel="noopener noreferrer"
@@ -343,7 +342,7 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-        Guidance, Navigation & Control (GNC) and modeling/simulation for <a className={styles.customLink}
+        GNC (Guidance, Navigation, & Control) and Modeling & Simulation for <a className={styles.customLink}
           href="https://space.skyrocket.de/doc_sat/ssloral-1300.htm" rel="noopener noreferrer" target="_blank">satellites</a>.
         </p>
       </>
@@ -357,7 +356,7 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Guidance, Navigation & Control (GNC) and modeling/simulation for the <a className={styles.customLink}
+          GNC (Guidance, Navigation, & Control) and Modeling & Simulation for the <a className={styles.customLink}
           href="https://www.nasa.gov/content/goes-overview/index.html" rel="noopener noreferrer" target="_blank">GOES</a> satellite
           constellation operated by <a className={styles.customLink}
           href="https://www.nesdis.noaa.gov/" rel="noopener noreferrer" target="_blank">NOAA</a>.
