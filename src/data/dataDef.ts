@@ -35,9 +35,6 @@ interface HeroActionItem {
   onClick?: () => void;
 }
 
-
-
-
 /**
  * About section
  */
@@ -110,7 +107,7 @@ export interface EducationItem {
   school: string;
   degree: string;
   link: string;
-  specialization: string
+  specialization: string;
   content: JSX.Element | string;
 }
 
