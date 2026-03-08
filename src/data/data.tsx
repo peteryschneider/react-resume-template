@@ -21,16 +21,7 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import {
-  About,
-  EducationItem,
-  Hero,
-  HomepageMeta,
-  PortfolioItem,
-  SkillGroup,
-  Social,
-  WorkItem,
-} from './dataDef';
+import {About, EducationItem, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, WorkItem} from './dataDef';
 import styles from './styles.module.css';
 
 /**
@@ -38,7 +29,8 @@ import styles from './styles.module.css';
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Peter Schneider | AI and Machine Learning Engineer',
-  description: "Welcome to my personal website! I'm Peter Schneider, an AI and Machine Learning Engineer working in deep learning.",
+  description:
+    "Welcome to my personal website! I'm Peter Schneider, an AI and Machine Learning Engineer working in deep learning.",
 };
 
 /**
@@ -66,8 +58,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">Artificial Intelligence</strong> and
-        <strong className="text-stone-100"> Machine Learning</strong> at
-        Northrop Grumman
+        <strong className="text-stone-100"> Machine Learning</strong> at Northrop Grumman
       </p>
     </>
   ),
@@ -91,8 +82,8 @@ export const aboutData: About = {
       I am a Staff AI Engineer leading AI/ML projects at Northrop Grumman.
       <br />
       <br />
-      My work is focused in deep learning, spanning perception, language models (LLMs), graph neural networks,
-      temporal modeling, and autonomy systems including path planning and RF signal processing.
+      My work is focused in deep learning, spanning perception, language models (LLMs), graph neural networks, temporal
+      modeling, and autonomy systems including path planning and RF signal processing.
     </>
   ),
   aboutItems: [
@@ -171,7 +162,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'RF Machine Learning',
-    description: 'RF Machine Learning, including research of complex-valued neural networks and collaboration with Deepwave Digital.',
+    description:
+      'RF Machine Learning, including research of complex-valued neural networks and collaboration with Deepwave Digital.',
     url: 'https://www.c4isrnet.com/intel-geoint/2021/02/02/with-deepwave-digital-northrop-grumman-is-pushing-processing-to-the-edge/',
     image: porfolioImage4,
   },
@@ -211,7 +203,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://www.northropgrumman.com/what-we-do/air/b-21-raider',
     image: porfolioImage10,
   },
-    {
+  {
     title: 'F-35',
     description: 'AI/ML for F-35 including role as PI for Strike-Aligned AI Research.',
     url: 'https://www.northropgrumman.com/what-we-do/air/f35-lightning',
@@ -232,25 +224,59 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Leading <a className={styles.customLink}
-          href="https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/" rel="noopener noreferrer"
-          target="_blank">AI/ML</a> projects in deep learning, spanning perception, language models (LLMs), graph neural networks,
-          temporal modeling, and autonomy systems including path planning and RF signal processing.
+          Leading{' '}
+          <a
+            className={styles.customLink}
+            href="https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/"
+            rel="noopener noreferrer"
+            target="_blank">
+            AI/ML
+          </a>{' '}
+          projects in deep learning, spanning perception, language models (LLMs), graph neural networks, temporal
+          modeling, and autonomy systems including path planning and RF signal processing.
         </p>
         <br />
         Selected projects:
         <ul>
-          <li className={styles.customBullet}> Principal Investigator for <a className={styles.customLink}
-          href="https://www.northropgrumman.com/what-we-do/aircraft/b-21-raider" rel="noopener noreferrer"
-          target="_blank">Strike</a>-Aligned AI Research, guiding projects from from early-stage research through cross-program collaboration, stakeholder engagement, and program insertions.</li>
-          <li className={styles.customBullet}> Architected transformer-based neural networks for constrained multi-objective path planning,
-          learning optimal trajectories that minimize detection risk while satisfying mission constraints; designed end-to-end training pipelines combining behavior cloning pretraining with gradient-based reinforcement learning fine-tuning.</li>
-          <li className={styles.customBullet}> Architected complex-valued neural networks better exploiting both magnitude and phase
-          in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
-          <li className={styles.customBullet}> Architected transformer-based neural networks that predict the optical response of metaoptics
-          faster and more accurately than traditional simulation methods; Trade Secret granted, recognized with NG Innovation Award,
-          and <a className={styles.customLink}href="https://opg.optica.org/ol/abstract.cfm?doi=10.1364/OL.564220" rel="noopener noreferrer"
-          target="_blank">paper</a> published in Optics Letters.</li>
+          <li className={styles.customBullet}>
+            {' '}
+            Principal Investigator for{' '}
+            <a
+              className={styles.customLink}
+              href="https://www.northropgrumman.com/what-we-do/aircraft/b-21-raider"
+              rel="noopener noreferrer"
+              target="_blank">
+              Strike
+            </a>
+            -Aligned AI Research, guiding projects from from early-stage research through cross-program collaboration,
+            stakeholder engagement, and program insertions.
+          </li>
+          <li className={styles.customBullet}>
+            {' '}
+            Architected transformer-based neural networks for constrained multi-objective path planning, learning
+            optimal trajectories that minimize detection risk while satisfying mission constraints; designed end-to-end
+            training pipelines combining behavior cloning pretraining with gradient-based reinforcement learning
+            fine-tuning.
+          </li>
+          <li className={styles.customBullet}>
+            {' '}
+            Architected complex-valued neural networks better exploiting both magnitude and phase in SAR and optical
+            data; successful SAR ATR demo deployed on Triton.
+          </li>
+          <li className={styles.customBullet}>
+            {' '}
+            Architected transformer-based neural networks that predict the optical response of metaoptics faster and
+            more accurately than traditional simulation methods; Trade Secret granted, recognized with NG Innovation
+            Award, and{' '}
+            <a
+              className={styles.customLink}
+              href="https://opg.optica.org/ol/abstract.cfm?doi=10.1364/OL.564220"
+              rel="noopener noreferrer"
+              target="_blank">
+              paper
+            </a>{' '}
+            published in Optics Letters.
+          </li>
         </ul>
       </>
     ),
@@ -263,21 +289,40 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          <a className={styles.customLink}
-          href="https://emagsys.com/deep-learning-radar-automated-target-recognition-atr/" rel="noopener noreferrer"
-          target="_blank">Deep learning with SAR imagery</a>.
+          <a
+            className={styles.customLink}
+            href="https://emagsys.com/deep-learning-radar-automated-target-recognition-atr/"
+            rel="noopener noreferrer"
+            target="_blank">
+            Deep learning with SAR imagery
+          </a>
+          .
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}>Research and development of complex-valued neural networks exploiting both magnitude and phase
-          data in SAR under  <a className={styles.customLink}
-          href="https://www.nga.mil/" rel="noopener noreferrer"
-          target="_blank">National Geospatial-Intelligence Agency</a> (NGA) <a className={styles.customLink}
-          href="https://www.nga.mil/resources/Boosting_Innovative_GEOINT_Research_Broad_Agency_A.html" rel="noopener noreferrer"
-          target="_blank">Boosting Innovative GEOINT</a> BAA.</li>
-          <li className={styles.customBullet}>Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data
-          using transfer learning to significantly improve model performance.</li>
-          <li className={styles.customBullet}>Redeveloped existing models to modern SOTA single-shot architectures improving performance.</li>
+          <li className={styles.customBullet}>
+            Research and development of complex-valued neural networks exploiting both magnitude and phase data in SAR
+            under{' '}
+            <a className={styles.customLink} href="https://www.nga.mil/" rel="noopener noreferrer" target="_blank">
+              National Geospatial-Intelligence Agency
+            </a>{' '}
+            (NGA){' '}
+            <a
+              className={styles.customLink}
+              href="https://www.nga.mil/resources/Boosting_Innovative_GEOINT_Research_Broad_Agency_A.html"
+              rel="noopener noreferrer"
+              target="_blank">
+              Boosting Innovative GEOINT
+            </a>{' '}
+            BAA.
+          </li>
+          <li className={styles.customBullet}>
+            Evaluated domain shift bias from training with synthetic data; combined collected with synthetic data using
+            transfer learning to significantly improve model performance.
+          </li>
+          <li className={styles.customBullet}>
+            Redeveloped existing models to modern SOTA single-shot architectures improving performance.
+          </li>
           <li className={styles.customBullet}>Presented work at 2020 SAREM forum in Chantilly, Virginia.</li>
         </ul>
       </>
@@ -291,16 +336,26 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Machine learning and autonomy, worked with the <a className={styles.customLink}
-          href="https://now.northropgrumman.com/cognitive-automation-drones-disaster-relief" rel="noopener noreferrer"
-          target="_blank">Cognitive Autonomy</a> Research Group.
+          Machine learning and autonomy, worked with the{' '}
+          <a
+            className={styles.customLink}
+            href="https://now.northropgrumman.com/cognitive-automation-drones-disaster-relief"
+            rel="noopener noreferrer"
+            target="_blank">
+            Cognitive Autonomy
+          </a>{' '}
+          Research Group.
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}>Developed and trained deep learning models for multiple projects
-          including perception with satellite imagery and anomaly detection with time-series telemetry data.</li>
-          <li className={styles.customBullet}>Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
-          simulation platform for autonomous formation flying.</li>
+          <li className={styles.customBullet}>
+            Developed and trained deep learning models for multiple projects including perception with satellite imagery
+            and anomaly detection with time-series telemetry data.
+          </li>
+          <li className={styles.customBullet}>
+            Developed trajectory optimization and nonlinear state estimation algorithms as well as accompanying
+            simulation platform for autonomous formation flying.
+          </li>
         </ul>
       </>
     ),
@@ -313,23 +368,49 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Machine learning, Guidance, Navigation & Control (GNC), and modeling/simulation for national security space
-          in support of the <a className={styles.customLink}
-          href="https://www.spaceforce.com/about" rel="noopener noreferrer"
-          target="_blank">U.S. Space Force</a> and <a className={styles.customLink}
-          href="https://www.nro.gov/" rel="noopener noreferrer"
-          target="_blank">National Reconnaissance Office</a> (NRO).
+          Machine learning, Guidance, Navigation & Control (GNC), and modeling/simulation for national security space in
+          support of the{' '}
+          <a
+            className={styles.customLink}
+            href="https://www.spaceforce.com/about"
+            rel="noopener noreferrer"
+            target="_blank">
+            U.S. Space Force
+          </a>{' '}
+          and{' '}
+          <a className={styles.customLink} href="https://www.nro.gov/" rel="noopener noreferrer" target="_blank">
+            National Reconnaissance Office
+          </a>{' '}
+          (NRO).
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}>Lead a team working on the next generation GPS satellite constellation (
-          <a className={styles.customLink}
-          href="https://www.lockheedmartin.com/en-us/products/gps.html" rel="noopener noreferrer"
-          target="_blank">GPS Block III</a>), also worked on launch vehicles (<a className={styles.customLink}
-          href="https://www.ulalaunch.com/rockets/atlas-v" rel="noopener noreferrer"
-          target="_blank">Atlas V</a> and <a className={styles.customLink}
-          href="https://www.spacex.com/vehicles/falcon-9/" rel="noopener noreferrer"
-          target="_blank">Falcon</a>), missile systems, and other satellite constellations.
+          <li className={styles.customBullet}>
+            Lead a team working on the next generation GPS satellite constellation (
+            <a
+              className={styles.customLink}
+              href="https://www.lockheedmartin.com/en-us/products/gps.html"
+              rel="noopener noreferrer"
+              target="_blank">
+              GPS Block III
+            </a>
+            ), also worked on launch vehicles (
+            <a
+              className={styles.customLink}
+              href="https://www.ulalaunch.com/rockets/atlas-v"
+              rel="noopener noreferrer"
+              target="_blank">
+              Atlas V
+            </a>{' '}
+            and{' '}
+            <a
+              className={styles.customLink}
+              href="https://www.spacex.com/vehicles/falcon-9/"
+              rel="noopener noreferrer"
+              target="_blank">
+              Falcon
+            </a>
+            ), missile systems, and other satellite constellations.
           </li>
         </ul>
       </>
@@ -343,8 +424,15 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-        Guidance, Navigation & Control (GNC) and modeling/simulation for <a className={styles.customLink}
-          href="https://space.skyrocket.de/doc_sat/ssloral-1300.htm" rel="noopener noreferrer" target="_blank">satellites</a>.
+          Guidance, Navigation & Control (GNC) and modeling/simulation for{' '}
+          <a
+            className={styles.customLink}
+            href="https://space.skyrocket.de/doc_sat/ssloral-1300.htm"
+            rel="noopener noreferrer"
+            target="_blank">
+            satellites
+          </a>
+          .
         </p>
       </>
     ),
@@ -357,16 +445,28 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Guidance, Navigation & Control (GNC) and modeling/simulation for the <a className={styles.customLink}
-          href="https://www.nasa.gov/content/goes-overview/index.html" rel="noopener noreferrer" target="_blank">GOES</a> satellite
-          constellation operated by <a className={styles.customLink}
-          href="https://www.nesdis.noaa.gov/" rel="noopener noreferrer" target="_blank">NOAA</a>.
+          Guidance, Navigation & Control (GNC) and modeling/simulation for the{' '}
+          <a
+            className={styles.customLink}
+            href="https://www.nasa.gov/content/goes-overview/index.html"
+            rel="noopener noreferrer"
+            target="_blank">
+            GOES
+          </a>{' '}
+          satellite constellation operated by{' '}
+          <a
+            className={styles.customLink}
+            href="https://www.nesdis.noaa.gov/"
+            rel="noopener noreferrer"
+            target="_blank">
+            NOAA
+          </a>
+          .
         </p>
       </>
     ),
   },
 ];
-
 
 export const education: EducationItem[] = [
   {
@@ -376,28 +476,28 @@ export const education: EducationItem[] = [
     link: 'https://www.cc.gatech.edu/',
     specialization: 'Machine Learning Specialization',
     content: (
-    <>
-      <p>
-        <strong>TA</strong>
-        <ul>
-          <li className={styles.customBullet}>CSE 8803: Big Data for Healthcare</li>
-          <li className={styles.customBullet}>CS 8803: AI for Robotics</li>
-        </ul>
-        <strong>Coursework</strong>
-        <ul>
-          <li className={styles.customBullet}>CS 7641: Machine Learning</li>
-          <li className={styles.customBullet}>CS 7646: Machine Learning for Trading</li>
-          <li className={styles.customBullet}>CS 8803: Reinforcement Learning</li>
-          <li className={styles.customBullet}>CSE 6242: Data and Visual Analytics</li>
-          <li className={styles.customBullet}>CS 6476: Computer Vision</li>
-          <li className={styles.customBullet}>CS 7637: Knowledge Based AI</li>
-          <li className={styles.customBullet}>CS 8803: AI for Robotics</li>
-          <li className={styles.customBullet}>CSE 8803: Big Data for Healthcare</li>
-          <li className={styles.customBullet}>CS 6505: Computability and Algorithms</li>
-          <li className={styles.customBullet}>CS 6262: Network Security</li>
-        </ul>
-      </p>
-    </>
+      <>
+        <p>
+          <strong>TA</strong>
+          <ul>
+            <li className={styles.customBullet}>CSE 8803: Big Data for Healthcare</li>
+            <li className={styles.customBullet}>CS 8803: AI for Robotics</li>
+          </ul>
+          <strong>Coursework</strong>
+          <ul>
+            <li className={styles.customBullet}>CS 7641: Machine Learning</li>
+            <li className={styles.customBullet}>CS 7646: Machine Learning for Trading</li>
+            <li className={styles.customBullet}>CS 8803: Reinforcement Learning</li>
+            <li className={styles.customBullet}>CSE 6242: Data and Visual Analytics</li>
+            <li className={styles.customBullet}>CS 6476: Computer Vision</li>
+            <li className={styles.customBullet}>CS 7637: Knowledge Based AI</li>
+            <li className={styles.customBullet}>CS 8803: AI for Robotics</li>
+            <li className={styles.customBullet}>CSE 8803: Big Data for Healthcare</li>
+            <li className={styles.customBullet}>CS 6505: Computability and Algorithms</li>
+            <li className={styles.customBullet}>CS 6262: Network Security</li>
+          </ul>
+        </p>
+      </>
     ),
   },
 
@@ -408,30 +508,86 @@ export const education: EducationItem[] = [
     link: 'https://samueli.ucla.edu/',
     specialization: 'Dynamic Systems and Control',
     content: (
-    <>
-      <p>
-        <strong>Coursework</strong>
-        <ul>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE171B" rel="noopener noreferrer" target="_blank">MAE 171B: Digital Control of Physical Systems</a></li>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://catalog.registrar.ucla.edu/course/2023/MECHAEM270A" rel="noopener noreferrer" target="_blank">MAE M270A: Linear Dynamic Systems</a></li>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE270B" rel="noopener noreferrer" target="_blank">MAE 270B: Linear Optimal Control</a></li>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://catalog.registrar.ucla.edu/course/2023/MECHAEC271A" rel="noopener noreferrer" target="_blank">MAE C270A: Probability and Stochastic Processes in Dynamical Systems</a></li>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE271B" rel="noopener noreferrer" target="_blank">MAE 271B: Stochastic Estimation</a></li>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE250C" rel="noopener noreferrer" target="_blank">MAE 250C: Compressible Flows</a></li>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://catalog.registrar.ucla.edu/course/2023/MECHAE250D" rel="noopener noreferrer" target="_blank">MAE 250D: Computational Fluid Dynamics for Compressible Flows</a></li>
-          <li className={styles.customBullet}><a className={styles.customLink}
-          href="https://catalog.registrar.ucla.edu/course/2023/MECHAEM269A" rel="noopener noreferrer" target="_blank">MAE M269A: Dynamics of Structures</a></li>
-          <li className={styles.customBullet}>Advised Capstone Project, System Identification</li>
-        </ul>
-      </p>
-    </>
+      <>
+        <p>
+          <strong>Coursework</strong>
+          <ul>
+            <li className={styles.customBullet}>
+              <a
+                className={styles.customLink}
+                href="https://catalog.registrar.ucla.edu/course/2023/MECHAE171B"
+                rel="noopener noreferrer"
+                target="_blank">
+                MAE 171B: Digital Control of Physical Systems
+              </a>
+            </li>
+            <li className={styles.customBullet}>
+              <a
+                className={styles.customLink}
+                href="https://catalog.registrar.ucla.edu/course/2023/MECHAEM270A"
+                rel="noopener noreferrer"
+                target="_blank">
+                MAE M270A: Linear Dynamic Systems
+              </a>
+            </li>
+            <li className={styles.customBullet}>
+              <a
+                className={styles.customLink}
+                href="https://catalog.registrar.ucla.edu/course/2023/MECHAE270B"
+                rel="noopener noreferrer"
+                target="_blank">
+                MAE 270B: Linear Optimal Control
+              </a>
+            </li>
+            <li className={styles.customBullet}>
+              <a
+                className={styles.customLink}
+                href="https://catalog.registrar.ucla.edu/course/2023/MECHAEC271A"
+                rel="noopener noreferrer"
+                target="_blank">
+                MAE C270A: Probability and Stochastic Processes in Dynamical Systems
+              </a>
+            </li>
+            <li className={styles.customBullet}>
+              <a
+                className={styles.customLink}
+                href="https://catalog.registrar.ucla.edu/course/2023/MECHAE271B"
+                rel="noopener noreferrer"
+                target="_blank">
+                MAE 271B: Stochastic Estimation
+              </a>
+            </li>
+            <li className={styles.customBullet}>
+              <a
+                className={styles.customLink}
+                href="https://catalog.registrar.ucla.edu/course/2023/MECHAE250C"
+                rel="noopener noreferrer"
+                target="_blank">
+                MAE 250C: Compressible Flows
+              </a>
+            </li>
+            <li className={styles.customBullet}>
+              <a
+                className={styles.customLink}
+                href="https://catalog.registrar.ucla.edu/course/2023/MECHAE250D"
+                rel="noopener noreferrer"
+                target="_blank">
+                MAE 250D: Computational Fluid Dynamics for Compressible Flows
+              </a>
+            </li>
+            <li className={styles.customBullet}>
+              <a
+                className={styles.customLink}
+                href="https://catalog.registrar.ucla.edu/course/2023/MECHAEM269A"
+                rel="noopener noreferrer"
+                target="_blank">
+                MAE M269A: Dynamics of Structures
+              </a>
+            </li>
+            <li className={styles.customBullet}>Advised Capstone Project, System Identification</li>
+          </ul>
+        </p>
+      </>
     ),
   },
 
