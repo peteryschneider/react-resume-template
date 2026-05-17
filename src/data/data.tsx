@@ -88,11 +88,8 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I am a Staff AI Engineer leading AI/ML projects at Northrop Grumman.
-      <br />
-      <br />
-      My work is focused in deep learning, spanning perception, language models (LLMs), graph neural networks,
-      temporal modeling, and autonomy systems including path planning and RF signal processing.
+      I lead AI and Machine Learning projects focused on deep learning systems, with applications spanning perception,
+       language models, graph neural networks, temporal modeling, autonomy, path planning, and signal processing.
     </>
   ),
   aboutItems: [
@@ -227,15 +224,15 @@ export const experience: WorkItem[] = [
   {
     date: 'Jul 2020 - Present',
     company: 'Northrop Grumman Corporation',
-    title: 'Staff AI Engineer',
+    title: 'Senior Staff AI Engineer',
     link: 'https://www.northropgrumman.com/',
     content: (
       <>
         <p>
           Leading <a className={styles.customLink}
           href="https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/" rel="noopener noreferrer"
-          target="_blank">AI/ML</a> projects in deep learning, spanning perception, language models (LLMs), graph neural networks,
-          temporal modeling, and autonomy systems including path planning and RF signal processing.
+          target="_blank">AI and Machine Learning</a> projects focused on deep learning systems, with applications spanning
+          perception, language models, graph neural networks, temporal modeling, autonomy, path planning, and signal processing.
         </p>
         <br />
         Selected projects:
@@ -250,7 +247,7 @@ export const experience: WorkItem[] = [
           <li className={styles.customBullet}> Architected transformer-based neural networks that predict the optical response of metaoptics
           faster and more accurately than traditional simulation methods; Trade Secret granted, NG Innovation Award,
           and <a className={styles.customLink}href="https://opg.optica.org/ol/abstract.cfm?doi=10.1364/OL.564220" rel="noopener noreferrer"
-          target="_blank">paper</a> published in Optics Letters.</li>
+          target="_blank">paper published in Optics Letters</a>.</li>
         </ul>
       </>
     ),
