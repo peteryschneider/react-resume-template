@@ -88,7 +88,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I lead AI and Machine Learning projects focused on deep learning systems, with applications spanning perception,
+      I lead AI and Machine Learning projects focused on deep learning, with applications spanning perception,
        language models, graph neural networks, temporal modeling, autonomy, path planning, and signal processing.
     </>
   ),
@@ -231,7 +231,7 @@ export const experience: WorkItem[] = [
         <p>
           Leading <a className={styles.customLink}
           href="https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/" rel="noopener noreferrer"
-          target="_blank">AI and Machine Learning</a> projects focused on deep learning systems, with applications spanning
+          target="_blank">AI and Machine Learning</a> projects focused on deep learning, with applications spanning
           perception, language models, graph neural networks, temporal modeling, autonomy, path planning, and signal processing.
         </p>
         <br />
@@ -333,9 +333,9 @@ export const experience: WorkItem[] = [
   },
   {
     date: 'May 2012 - Mar 2014',
-    company: 'Space Systems Loral (acquired, now Vantor)',
+    company: 'Space Systems Loral',
     title: 'Senior Research and Development Engineer',
-    link: 'https://www.maxar.com/',
+    link: 'https://www.intuitivemachines.com/',
     content: (
       <>
         <p>
