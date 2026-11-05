@@ -243,7 +243,7 @@ export const experience: WorkItem[] = [
           href="https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/" rel="noopener noreferrer"
           target="_blank">AI </a> strategy across the <a className={styles.customLink}
           href="https://www.northropgrumman.com/who-we-are/business-sectors/aeronautics-systems" rel="noopener noreferrer"
-          target="_blank">Aeronautics Systems </a>business sector, while developing deep learning solutions spanning perception, language models, graph neural networks, and temporal modeling.
+          target="_blank">Aeronautics Systems </a>business sector while developing deep learning solutions spanning perception, language models, graph neural networks, and temporal modeling.
         </p>
         <br />
         Selected projects:
@@ -254,7 +254,7 @@ export const experience: WorkItem[] = [
           <li className={styles.customBullet}> Architected transformer-based neural networks for constrained multi-objective path planning,
           learning optimal trajectories that minimize detection risk while satisfying mission constraints; designed end-to-end training pipelines combining behavior cloning pretraining with gradient-based reinforcement learning fine-tuning.</li>
           <li className={styles.customBullet}> Architected complex-valued neural networks better exploiting both magnitude and phase
-          in SAR and optical data; successful SAR ATR demo deployed on Triton.</li>
+          in SAR and optical data.</li>
           <li className={styles.customBullet}> Architected transformer-based neural networks that predict the optical response of metaoptics
           faster and more accurately than traditional simulation methods; Trade Secret granted, NG Innovation Award,
           and <a className={styles.customLink}href="https://opg.optica.org/ol/abstract.cfm?doi=10.1364/OL.564220" rel="noopener noreferrer"
