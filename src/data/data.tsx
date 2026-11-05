@@ -88,8 +88,18 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I lead AI and Machine Learning projects focused on deep learning, with applications spanning perception,
-       language models, graph neural networks, temporal modeling, autonomy, path planning, and signal processing.
+      <p>
+        I am the Chief AI Architect for Northrop Grumman's Aeronautics Systems
+        sector, one of the company's four major business sectors, responsible
+        for developing advanced military aircraft, autonomous systems, and
+        technologies for intelligence, surveillance, and strike missions.
+      </p>
+
+      <p>
+        I steer sector-wide AI strategy while developing deep learning
+        solutions spanning perception, language models, graph neural
+        networks, and temporal modeling.
+      </p>
     </>
   ),
   aboutItems: [
@@ -175,7 +185,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'SAR ATR',
     description: 'Deep learning for SAR including research of complex-valued neural networks.',
-    url: 'https://emagsys.com/deep-learning-radar-automated-target-recognition-atr/',
+    url: 'https://emagsys.com/emagsys.com/deep-learning-radar-automated-target-recognition-atr/',
     image: porfolioImage5,
   },
   {
@@ -187,7 +197,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'SAR Simulation for AI/ML',
     description: 'Rapid generation of SAR simulation data for deep learning',
-    url: 'https://emagsys.com/radar-simulation-software-for-rapid-generation-of-sar-or-isar-ai-ml-training-data/',
+    url: 'https://emagsys.com/emagsys.com/radar-simulation-software-for-rapid-generation-of-sar-or-isar-ai-ml-training-data/',
     image: porfolioImage7,
   },
   {
@@ -224,7 +234,7 @@ export const experience: WorkItem[] = [
   {
     date: 'Jul 2020 - Present',
     company: 'Northrop Grumman Corporation',
-    title: 'Senior Staff AI Engineer',
+    title: 'Chief AI Architect, Aeronautics Systems',
     link: 'https://www.northropgrumman.com/',
     content: (
       <>
@@ -261,7 +271,7 @@ export const experience: WorkItem[] = [
       <>
         <p>
           <a className={styles.customLink}
-          href="https://emagsys.com/deep-learning-radar-automated-target-recognition-atr/" rel="noopener noreferrer"
+          href="https://emagsys.com/emagsys.com/deep-learning-radar-automated-target-recognition-atr/" rel="noopener noreferrer"
           target="_blank">Deep learning with SAR imagery</a>.
         </p>
         <br />
