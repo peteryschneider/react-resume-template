@@ -239,10 +239,11 @@ export const experience: WorkItem[] = [
     content: (
       <>
         <p>
-          Leading <a className={styles.customLink}
+          Steering <a className={styles.customLink}
           href="https://www.northropgrumman.com/what-we-do/artificial-intelligence-and-machine-learning/" rel="noopener noreferrer"
-          target="_blank">AI and Machine Learning</a> projects focused on deep learning, with applications spanning
-          perception, language models, graph neural networks, temporal modeling, autonomy, path planning, and signal processing.
+          target="_blank">AI </a> strategy across the <a className={styles.customLink}
+          href="https://www.northropgrumman.com/who-we-are/business-sectors/aeronautics-systems" rel="noopener noreferrer"
+          target="_blank">Aeronautics Systems </a>business sector, while developing deep learning solutions spanning perception, language models, graph neural networks, and temporal modeling.
         </p>
         <br />
         Selected projects:
