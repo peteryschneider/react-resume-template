@@ -113,46 +113,7 @@ export const aboutData: About = {
 /**
  * Skills section
  */
-export const skills: SkillGroup[] = [
-  {
-    name: 'Programming Languages',
-    skills: [
-      {
-        name: 'Python',
-        level: 10,
-      },
-      {
-        name: 'C++',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Machine Learning Libraries',
-    skills: [
-      {
-        name: 'TensorFlow',
-        level: 10,
-      },
-      {
-        name: 'PyTorch',
-        level: 10,
-      },
-      {
-        name: 'scikit-learn',
-        level: 10,
-      },
-      {
-        name: 'JAX',
-        level: 6,
-      },
-      {
-        name: 'Pytorch Geometric (PyG)',
-        level: 6,
-      },
-    ],
-  },
-];
+
 
 /**
  * Portfolio section
