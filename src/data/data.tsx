@@ -27,7 +27,6 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
-  SkillGroup,
   Social,
   WorkItem,
 } from './dataDef';
