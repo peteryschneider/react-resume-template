@@ -97,11 +97,15 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
-export interface WorkItem {
-  date: string;
-  company: string;
+export interface WorkRole {
   title: string;
+  date: string;
+}
+
+export interface WorkItem {
+  company: string;
   link: string;
+  roles: WorkRole[]; // most recent first
   content: JSX.Element;
 }
 

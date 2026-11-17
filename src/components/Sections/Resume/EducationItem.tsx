@@ -20,7 +20,7 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
         <div className="flex items-center justify-center gap-x-2 md:justify-start">
           <span className="flex-1 text-lg font-medium sm:flex-none">{degree}</span>
           <span>•</span>
-          <span className="flex-1 text-sm sm:flex-none">{date}</span>
+          <span className="flex-1 text-sm text-neutral-500 sm:flex-none">{date}</span>
         </div>
       </div>
       <span className="flex-1 text-lg font-medium sm:flex-none">{specialization}</span>

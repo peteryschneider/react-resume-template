@@ -192,10 +192,11 @@ export const portfolioItems: PortfolioItem[] = [
 
 export const experience: WorkItem[] = [
   {
-    date: 'Jul 2020 - Present',
     company: 'Northrop Grumman Corporation',
-    title: 'Chief AI Architect, Aeronautics Systems',
     link: 'https://www.northropgrumman.com/',
+    roles: [{title: 'Chief AI Architect, Aeronautics Systems', date: '2026 - Present'},
+            {title: 'Senior Staff AI Engineer', date: '2025 – 2026'},
+            {title: 'Staff AI Engineer', date: '2020 – 2025'},],
     content: (
       <>
         <p>
@@ -224,20 +225,19 @@ export const experience: WorkItem[] = [
     ),
   },
   {
-    date: 'Aug 2019 - Jul 2020',
     company: 'Electromagnetic Systems Inc.',
-    title: 'Senior Machine Learning Engineer',
     link: 'https://emagsys.com/',
+    roles: [{title: 'Senior Machine Learning Engineer', date: '2019 – 2020'},],
     content: (
       <>
         <p>
           <a className={styles.customLink}
           href="https://emagsys.com/emagsys.com/deep-learning-radar-automated-target-recognition-atr/" rel="noopener noreferrer"
-          target="_blank">Deep learning with SAR imagery</a>.
+          target="_blank">Deep learning for SAR imagery</a>.
         </p>
         <br />
         <ul>
-          <li className={styles.customBullet}>Research and development of complex-valued neural networks exploiting both magnitude and phase
+          <li className={styles.customBullet}>Architected complex-valued neural networks exploiting both magnitude and phase
           data in SAR under  <a className={styles.customLink}
           href="https://www.nga.mil/" rel="noopener noreferrer"
           target="_blank">National Geospatial-Intelligence Agency</a> (NGA) <a className={styles.customLink}
@@ -252,10 +252,10 @@ export const experience: WorkItem[] = [
     ),
   },
   {
-    date: 'May 2017 - Aug 2019',
     company: 'Northrop Grumman Corporation',
-    title: 'Senior Principal Engineer',
     link: 'https://www.northropgrumman.com/',
+    roles: [{title: 'Senior Principal Engineer', date: '2018 - 2019'},
+            {title: 'Principal Engineer', date: '2017 - 2018'},],
     content: (
       <>
         <p>
@@ -273,10 +273,10 @@ export const experience: WorkItem[] = [
     ),
   },
   {
-    date: 'Mar 2014 - Apr 2017',
     company: 'The Aerospace Corporation',
-    title: 'Senior Member of the Technical Staff',
     link: 'https://aerospace.org/',
+    roles: [{title: 'Senior Member of Technical Staff', date: '2015 - 2017'},
+            {title: 'Member of Technical Staff', date: '2014 - 2015'},],
     content: (
       <>
         <p>
@@ -303,10 +303,10 @@ export const experience: WorkItem[] = [
     ),
   },
   {
-    date: 'May 2012 - Mar 2014',
     company: 'Space Systems Loral',
-    title: 'Senior Research and Development Engineer',
     link: 'https://www.intuitivemachines.com/',
+    roles: [{title: 'Senior Research and Development Engineer', date: '2013 - 2014'},
+            {title: 'Research and Development Engineer', date: '2012 - 2013'},],
     content: (
       <>
         <p>
@@ -317,10 +317,9 @@ export const experience: WorkItem[] = [
     ),
   },
   {
-    date: 'Oct 2008 - May 2012',
     company: 'ASRC Federal Space and Defense',
-    title: 'Attitude Control / Simulation Engineer',
     link: 'https://www.asrcfederal.com/markets/space/',
+    roles: [{title: 'Attitude Control / Simulation Engineer', date: '2008 - 2012'},],
     content: (
       <>
         <p>
@@ -337,7 +336,7 @@ export const experience: WorkItem[] = [
 
 export const education: EducationItem[] = [
   {
-    date: 'May 2017',
+    date: '2017',
     school: 'Georgia Institute of Technology',
     degree: 'M.S. Computer Science',
     link: 'https://www.cc.gatech.edu/',
@@ -370,7 +369,7 @@ export const education: EducationItem[] = [
   },
 
   {
-    date: 'Jun 2014',
+    date: '2014',
     school: 'University of California, Los Angeles',
     degree: 'M.S. Aerospace Engineering',
     link: 'https://samueli.ucla.edu/',
@@ -404,7 +403,7 @@ export const education: EducationItem[] = [
   },
 
   {
-    date: 'Jun 2008',
+    date: '2008',
     school: 'University of California, Los Angeles',
     degree: 'B.S. Aerospace Engineering',
     link: 'https://samueli.ucla.edu/',
