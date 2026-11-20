@@ -1,4 +1,4 @@
-import {ChevronDownIcon, ChevronUpIcon} from '@heroicons/react/24/outline';
+import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import React, {FC, memo, useState} from 'react';
 
 import {EducationItem} from '../../../data/dataDef';
@@ -32,16 +32,19 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
         </div>
       </div>
       {hasContent && (
-        <div className="pt-2">
+        <div className="pt-1">
           <button
             aria-expanded={isContentVisible}
-            aria-label={isContentVisible ? 'Show less' : 'Show more'}
-            className="focus:outline-none"
+            className="inline-flex items-center gap-x-1 rounded py-2 text-sm font-medium text-neutral-500 hover:text-blue-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
             onClick={toggleContentVisibility}
             type="button">
-            {isContentVisible ? <ChevronUpIcon className="h-6 w-6" /> : <ChevronDownIcon className="h-6 w-6" />}
+            {isContentVisible ? 'Hide details' : 'Show details'}
+            <ChevronDownIcon
+              aria-hidden="true"
+              className={`h-4 w-4 transition-transform duration-200 ${isContentVisible ? 'rotate-180' : ''}`}
+            />
           </button>
-          {isContentVisible && <div className="pt-2">{content}</div>}
+          {isContentVisible && <div className="pt-1">{content}</div>}
         </div>
       )}
     </div>
