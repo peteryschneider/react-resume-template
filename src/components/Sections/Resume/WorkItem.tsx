@@ -17,7 +17,7 @@ const WorkItem: FC<{item: WorkItem}> = memo(({item}) => {
             <div
               className="flex flex-col md:flex-row md:items-baseline md:justify-between md:gap-x-4"
               key={`${title}-${date}`}>
-              <span className="text-base font-medium italic md:text-lg">{title}</span>
+              <span className="text-base font-medium md:text-lg">{title}</span>
               <span className="shrink-0 text-sm text-neutral-500">{date}</span>
             </div>
           ))}

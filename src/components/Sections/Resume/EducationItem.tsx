@@ -7,33 +7,41 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
   const {degree, date, school, link, specialization, content} = item;
   const [isContentVisible, setContentVisible] = useState(false);
 
+  const hasContent = content !== '' && React.Children.count(content) > 0;
+
   const toggleContentVisibility = () => {
-    setContentVisible(!isContentVisible);
+    setContentVisible(prev => !prev);
   };
 
   return (
-    <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
-      <div className="flex flex-col pb-0">
-        <h2 className="text-xl font-bold text-blue-600">
-            <a className="hover:text-blue-400" href={link} rel="noopener noreferrer" target="_blank">{school}</a>
-        </h2>
-        <div className="flex items-center justify-center gap-x-2 md:justify-start">
-          <span className="flex-1 text-lg font-medium sm:flex-none">{degree}</span>
-          <span>•</span>
-          <span className="flex-1 text-sm text-neutral-500 sm:flex-none">{date}</span>
+    <div className="flex flex-col pb-8 text-left last:pb-0">
+      <h2 className="text-xl font-bold text-blue-600">
+        <a className="hover:text-blue-400" href={link} rel="noopener noreferrer" target="_blank">
+          {school}
+        </a>
+      </h2>
+      <div className="border-l-2 border-neutral-200 pl-3">
+        {/* Mobile: degree → specialization → date, stacked on the left.
+            Desktop: degree/specialization on the left, date pushed to the right. */}
+        <div className="flex flex-col md:flex-row md:items-baseline md:justify-between md:gap-x-4">
+          <div className="flex flex-col">
+            <span className="text-base font-medium md:text-lg">{degree}</span>
+            {specialization && <span className="text-base font-medium md:text-lg">{specialization}</span>}
+          </div>
+          <span className="shrink-0 text-sm text-neutral-500">{date}</span>
         </div>
       </div>
-      <span className="flex-1 text-lg font-medium sm:flex-none">{specialization}</span>
-      {React.Children.count(content) > 0 && (
-        <div className="pb-4">
-          <div className="flex">
-            {content !== '' && (
-              <button className="mr-4 focus:outline-none" onClick={toggleContentVisibility}>
-                {isContentVisible ? (<ChevronUpIcon className="w-6 h-6" />) : (<ChevronDownIcon className="w-6 h-6" />)}
-              </button>
-            )}
-          </div>
-          {isContentVisible && <div>{content}</div>}
+      {hasContent && (
+        <div className="pt-2">
+          <button
+            aria-expanded={isContentVisible}
+            aria-label={isContentVisible ? 'Show less' : 'Show more'}
+            className="focus:outline-none"
+            onClick={toggleContentVisibility}
+            type="button">
+            {isContentVisible ? <ChevronUpIcon className="h-6 w-6" /> : <ChevronDownIcon className="h-6 w-6" />}
+          </button>
+          {isContentVisible && <div className="pt-2">{content}</div>}
         </div>
       )}
     </div>
