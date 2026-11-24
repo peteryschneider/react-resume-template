@@ -36,8 +36,8 @@ import styles from './styles.module.css';
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Peter Schneider | AI and Machine Learning Engineer',
-  description: "Welcome to my personal website! I'm Peter Schneider, an AI and Machine Learning Engineer working in deep learning.",
+  title: 'Peter Schneider | Chief AI Architect & ML Engineer',
+  description: "Peter Schneider is Chief AI Architect for Northrop Grumman Aeronautics Systems, leading sector-wide AI strategy and deep learning development.",
 };
 
 /**

@@ -27,7 +27,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
     '@type': 'Person',
     name: 'Peter Schneider',
     url: `${SITE_URL}/`,
-    jobTitle: 'AI and Machine Learning Engineer',
+    jobTitle: 'Chief AI Architect',
     knowsAbout: ['Artificial Intelligence', 'Machine Learning', 'Deep Learning'],
     worksFor: {
       '@type': 'Organization',
@@ -49,7 +49,6 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
       },
     ],
     homeLocation: {'@type': 'Place', name: 'Manhattan Beach, California'},
-    // TODO: replace with your real profile URLs; delete any you don't have
     sameAs: [
       'https://www.linkedin.com/in/peteryschneider/',
       'https://github.com/peteryschneider',
