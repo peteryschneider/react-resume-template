@@ -7,6 +7,10 @@ import {HomepageMeta} from '../../data/dataDef';
 
 const SITE_URL = 'https://www.peteryschneider.com';
 const SITE_NAME = 'Peter Schneider';
+// Static files in /public, referenced by absolute URL for crawlers and link previews.
+const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
+const OG_IMAGE_ALT = 'Peter Schneider, Chief AI Architect at Northrop Grumman, over an MQ-4C Triton in flight';
+const PROFILE_IMAGE = `${SITE_URL}/peter-schneider.jpg`;
 
 const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, description}) => {
   const {asPath} = useRouter();
@@ -26,7 +30,11 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Peter Schneider',
+    alternateName: 'Peter Y. Schneider',
     url: `${SITE_URL}/`,
+    image: PROFILE_IMAGE,
+    description:
+      'Chief AI Architect for Northrop Grumman Aeronautics Systems, leading AI strategy and deep learning development.',
     jobTitle: 'Chief AI Architect',
     knowsAbout: ['Artificial Intelligence', 'Machine Learning', 'Deep Learning'],
     worksFor: {
@@ -75,11 +83,18 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
         <meta content={url} property="og:url" />
+        <meta content={OG_IMAGE} property="og:image" />
+        <meta content="image/jpeg" property="og:image:type" />
+        <meta content="1200" property="og:image:width" />
+        <meta content="630" property="og:image:height" />
+        <meta content={OG_IMAGE_ALT} property="og:image:alt" />
 
         {/* Twitter / X */}
-        <meta content="summary" name="twitter:card" />
+        <meta content="summary_large_image" name="twitter:card" />
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
+        <meta content={OG_IMAGE} name="twitter:image" />
+        <meta content={OG_IMAGE_ALT} name="twitter:image:alt" />
 
         {/* Structured data (home page only): site name + who the site is about */}
         {isHomePage && (

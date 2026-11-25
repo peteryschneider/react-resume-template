@@ -44,7 +44,8 @@ const EducationItem: FC<{item: EducationItem}> = memo(({item}) => {
               className={`h-4 w-4 transition-transform duration-200 ${isContentVisible ? 'rotate-180' : ''}`}
             />
           </button>
-          {isContentVisible && <div className="pt-1">{content}</div>}
+          {/* Always rendered (hidden with CSS when collapsed) so search engines can index the details. */}
+          <div className={isContentVisible ? 'pt-1' : 'hidden'}>{content}</div>
         </div>
       )}
     </div>

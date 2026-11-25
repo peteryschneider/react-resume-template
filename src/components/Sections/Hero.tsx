@@ -14,7 +14,7 @@ const Hero: FC = memo(() => {
     <Section noPadding sectionId={SectionId.Hero}>
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
-          alt={`${name}-image`}
+          alt="MQ-4C Triton unmanned aircraft flying over the coastline"
           // The drone sits right of center; on narrow (portrait) screens, crop toward it instead of the empty ocean.
           className="absolute z-0 h-full w-full object-cover object-[78%_center] lg:object-center"
           placeholder="blur"
