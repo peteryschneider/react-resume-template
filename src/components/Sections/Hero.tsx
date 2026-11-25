@@ -15,7 +15,8 @@ const Hero: FC = memo(() => {
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
           alt={`${name}-image`}
-          className="absolute z-0 h-full w-full object-cover"
+          // The drone sits right of center; on narrow (portrait) screens, crop toward it instead of the empty ocean.
+          className="absolute z-0 h-full w-full object-cover object-[78%_center] lg:object-center"
           placeholder="blur"
           priority
           src={imageSrc}
