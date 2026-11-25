@@ -175,7 +175,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Strike',
     description: 'AI/ML for Strike programs, PI for Strike-Aligned AI Research.',
-    url: 'https://www.northropgrumman.com/what-we-do/air/b-21-raider',
+    url: 'https://www.northropgrumman.com/what-we-do/aircraft/b-21-raider',
     image: porfolioImage10,
   },
     {
@@ -211,7 +211,7 @@ export const experience: WorkItem[] = [
         <ul>
           <li className={styles.customBullet}> Principal Investigator for <a className={styles.customLink}
           href="https://www.northropgrumman.com/what-we-do/aircraft/b-21-raider" rel="noopener noreferrer"
-          target="_blank">Strike</a>-Aligned AI Research, guiding projects from from early-stage research through cross-program collaboration, stakeholder engagement, and program insertions.</li>
+          target="_blank">Strike</a>-Aligned AI Research, guiding projects from early-stage research through cross-program collaboration, stakeholder engagement, and program insertions.</li>
           <li className={styles.customBullet}> Architected transformer-based neural networks for constrained multi-objective path planning,
           learning optimal trajectories that minimize detection risk while satisfying mission constraints; designed end-to-end training pipelines combining behavior cloning pretraining with gradient-based reinforcement learning fine-tuning.</li>
           <li className={styles.customBullet}> Architected complex-valued neural networks better exploiting both magnitude and phase
@@ -343,7 +343,7 @@ export const education: EducationItem[] = [
     specialization: 'Machine Learning Specialization',
     content: (
     <>
-      <p>
+      <div>
         <strong>TA</strong>
         <ul>
           <li className={styles.customBullet}><a className={styles.customLink}
@@ -363,7 +363,7 @@ export const education: EducationItem[] = [
           <li className={styles.customBullet}>CS 6505: Computability and Algorithms</li>
           <li className={styles.customBullet}>CS 6262: Network Security</li>
         </ul>
-      </p>
+      </div>
     </>
     ),
   },
@@ -376,7 +376,7 @@ export const education: EducationItem[] = [
     specialization: 'Dynamic Systems and Control',
     content: (
     <>
-      <p>
+      <div>
         <strong>Coursework</strong>
         <ul>
           <li className={styles.customBullet}><a className={styles.customLink}
@@ -397,7 +397,7 @@ export const education: EducationItem[] = [
           href="https://catalog.registrar.ucla.edu/course/2023/MECHAEM269A" rel="noopener noreferrer" target="_blank">MAE M269A: Dynamics of Structures</a></li>
           <li className={styles.customBullet}>Advised Capstone Project, System Identification</li>
         </ul>
-      </p>
+      </div>
     </>
     ),
   },

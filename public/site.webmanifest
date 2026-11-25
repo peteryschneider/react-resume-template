@@ -1,11 +1,11 @@
 {
-  "name": "react-resume-template",
-  "short_name": "react-resume-template",
+  "name": "Peter Schneider",
+  "short_name": "Peter Schneider",
   "icons": [
     {"src": "/icon-192.png", "type": "image/png", "sizes": "192x192"},
     {"src": "/icon-512.png", "type": "image/png", "sizes": "512x512"}
   ],
-  "theme_color": "#515455",
-  "background_color": "#515455",
+  "theme_color": "#262728",
+  "background_color": "#262728",
   "display": "standalone"
 }
